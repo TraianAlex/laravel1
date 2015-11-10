@@ -1,6 +1,6 @@
 <?php
 
-namespace App;
+namespace laravel1;
 
 use Illuminate\Auth\Authenticatable;
 use Illuminate\Database\Eloquent\Model;
@@ -28,7 +28,7 @@ class User extends Model implements AuthenticatableContract,
      *
      * @var array
      */
-    protected $fillable = ['name', 'email', 'password'];
+    protected $fillable = ['id', 'name', 'email', 'password', 'question', 'answer'];
 
     /**
      * The attributes excluded from the model's JSON form.
@@ -36,4 +36,9 @@ class User extends Model implements AuthenticatableContract,
      * @var array
      */
     protected $hidden = ['password', 'remember_token'];
+
+    public function albums()
+    {
+        return $this->hasMany('laravel1\Album');
+    }
 }

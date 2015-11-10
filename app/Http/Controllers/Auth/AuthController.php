@@ -1,12 +1,15 @@
 <?php
 
-namespace App\Http\Controllers\Auth;
+namespace laravel1\Http\Controllers\Auth;
 
-use App\User;
+use laravel1\User;
 use Validator;
-use App\Http\Controllers\Controller;
+use laravel1\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\ThrottlesLogins;
 use Illuminate\Foundation\Auth\AuthenticatesAndRegistersUsers;
+
+use laravel1\Http\Requests\PasswordRecoveryRequest;
+use Hash;
 
 class AuthController extends Controller
 {
@@ -33,6 +36,32 @@ class AuthController extends Controller
         $this->middleware('guest', ['except' => 'getLogout']);
     }
 
+    public function getRecoverPassword()
+    {
+        return view('auth.recover');
+    }
+
+    public function postRecoverPassword(PasswordRecoveryRequest $request)
+    {
+        //return 'recovering password';
+        $question = $request->get('question');
+        $answer = $request->get('answer');
+
+        $user = User::where('email', $request->get('email'))->first();
+
+        if($user->question === $question && Hash::check($answer,$user->answer))
+        {
+            $user->password = bcrypt($request->get('password'));
+
+            $user->save();
+
+            return redirect('auth/login')
+            ->with(['success' => 'The password was changed']);
+        }
+
+        return redirect('auth/recover-password')->withInput($request->only('email', 'question'))
+        ->withErrors('The answer or the question doesn\'t match');
+    }
     /**
      * Get a validator for an incoming registration request.
      *
@@ -45,6 +74,8 @@ class AuthController extends Controller
             'name' => 'required|max:255',
             'email' => 'required|email|max:255|unique:users',
             'password' => 'required|confirmed|min:6',
+            'question' => 'required|max:255',
+            'answer' => 'required|confirmed|max:255'
         ]);
     }
 
@@ -60,6 +91,8 @@ class AuthController extends Controller
             'name' => $data['name'],
             'email' => $data['email'],
             'password' => bcrypt($data['password']),
+            'question' => $data['question'],
+            'answer' => bcrypt($data['answer'])
         ]);
     }
 }

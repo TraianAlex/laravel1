@@ -1,0 +1,842 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"is",
+				"is_numeric"
+			],
+			[
+				"is_in",
+				"is_integer"
+			],
+			[
+				"is_s",
+				"is_string"
+			],
+			[
+				"table",
+				"TablePagination"
+			],
+			[
+				"met",
+				"method"
+			],
+			[
+				"vie",
+				"views"
+			],
+			[
+				"layout",
+				"layouts"
+			],
+			[
+				"layo",
+				"layouts"
+			],
+			[
+				"set",
+				"set_flashdata	CI - Set flashdata"
+			],
+			[
+				"field",
+				"field_name"
+			],
+			[
+				"fi",
+				"field_value"
+			],
+			[
+				"model",
+				"model_students"
+			],
+			[
+				"stude",
+				"student_id"
+			],
+			[
+				"load",
+				"load_library	CI - Load Library"
+			],
+			[
+				"use",
+				"user_model"
+			],
+			[
+				"loAD",
+				"load_model	CI - Load Model"
+			],
+			[
+				"arr",
+				"array_push"
+			],
+			[
+				"date_add",
+				"date_added"
+			],
+			[
+				"pub",
+				"public"
+			],
+			[
+				"publ",
+				"publication"
+			],
+			[
+				"issud",
+				"issue_id"
+			],
+			[
+				"iss",
+				"issue"
+			],
+			[
+				"magazi",
+				"magazine"
+			],
+			[
+				"members",
+				"membership_model"
+			],
+			[
+				"session",
+				"session_destroy"
+			],
+			[
+				"run",
+				"run_validation	CI - Run form validation"
+			],
+			[
+				"validate",
+				"validate_credentialsw"
+			],
+			[
+				"num_rows",
+				"db2_num_rows"
+			],
+			[
+				"form",
+				"form_validation	CI - Form Validation Rule"
+			],
+			[
+				"valida",
+				"form_validation"
+			],
+			[
+				"st",
+				"style	Tag"
+			],
+			[
+				"load_",
+				"load_model	CI - Load Model"
+			],
+			[
+				"el",
+				"else"
+			],
+			[
+				"end",
+				"endif"
+			],
+			[
+				"db_resul",
+				"db_result_array	CI - Active Record DB Result Array"
+			],
+			[
+				"post",
+				"postID"
+			],
+			[
+				"ret",
+				"return"
+			],
+			[
+				"user",
+				"user_type"
+			],
+			[
+				"req",
+				"required"
+			],
+			[
+				"db",
+				"db_where	CI - Active Record DB Where"
+			],
+			[
+				"http_buil",
+				"http_build_query"
+			],
+			[
+				"query",
+				"query_id"
+			],
+			[
+				"inli",
+				"inline-block"
+			],
+			[
+				"films",
+				"films2"
+			],
+			[
+				"sort",
+				"sort_order"
+			],
+			[
+				"html",
+				"htmlspecialchars"
+			],
+			[
+				"template",
+				"templates"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"border",
+				"border-bottom"
+			],
+			[
+				"border-",
+				"border-collapse"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"resul",
+				"results"
+			],
+			[
+				"backg",
+				"background-color"
+			],
+			[
+				"margi",
+				"margin"
+			],
+			[
+				"list",
+				"list-style-type"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"produ",
+				"products"
+			],
+			[
+				"pading",
+				"padding-left"
+			],
+			[
+				"json",
+				"json_encode"
+			],
+			[
+				"get_cal",
+				"get_calendar_data"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"margin",
+				"margin"
+			],
+			[
+				"__",
+				"__construct"
+			],
+			[
+				"gallery",
+				"gallery_model"
+			],
+			[
+				"image",
+				"image_data"
+			],
+			[
+				"t",
+				"type"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"paddin",
+				"padding"
+			],
+			[
+				"paddi",
+				"padding"
+			],
+			[
+				"pa",
+				"pagination"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"margin-",
+				"margin-bottom"
+			],
+			[
+				"is_lo",
+				"is_logged_in"
+			],
+			[
+				"first",
+				"first_name"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"meth",
+				"http_request_method_name"
+			],
+			[
+				"class",
+				"class_exists"
+			],
+			[
+				"respon",
+				"responseCaptcha2"
+			],
+			[
+				"pro",
+				"process"
+			],
+			[
+				"li",
+				"link	Tag"
+			],
+			[
+				"array_re",
+				"array_replace"
+			],
+			[
+				"array_fil",
+				"array_filter"
+			],
+			[
+				"url",
+				"urlencode"
+			],
+			[
+				"vi",
+				"view"
+			],
+			[
+				"sq",
+				"sqlite"
+			],
+			[
+				"is_a",
+				"is_array"
+			],
+			[
+				"preg",
+				"preg_replace"
+			],
+			[
+				"for",
+				"foreach	foreach …"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"strip",
+				"strip_tags"
+			],
+			[
+				"stri",
+				"strip_tags"
+			],
+			[
+				"ht",
+				"htmlentities"
+			],
+			[
+				"filter",
+				"filter_input"
+			],
+			[
+				"_g",
+				"_get_post	CI - $_GET / $_POST"
+			],
+			[
+				"ci2",
+				"ci2me	CodeIgniter 2 Model (CRUD)"
+			],
+			[
+				"php",
+				"php_check_syntax"
+			],
+			[
+				"var",
+				"var_dump"
+			],
+			[
+				"mt",
+				"mt_rand"
+			],
+			[
+				"a",
+				"array"
+			],
+			[
+				"exa",
+				"extract"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"navbar",
+				"navbar-brand"
+			],
+			[
+				"lin",
+				"link_to"
+			],
+			[
+				"core",
+				"coreviews"
+			],
+			[
+				"stat",
+				"staticfiles"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "resources/views/app.blade.php",
+			"settings":
+			{
+				"buffer_size": 2411,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: try",
+				"Snippet: Wrap in try { … } catch (…) { … }"
+			],
+			[
+				"doc",
+				"Snippet: HTML - Conditional comment"
+			],
+			[
+				"Snippet: doc",
+				"Snippet: Start Docblock"
+			],
+			[
+				"Snippet: ",
+				"Snippet: <?php … ?>"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 640.0
+	},
+	"console":
+	{
+		"height": 160.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/victor92/Downloads/phpfox_.sql",
+		"/D/Dropbox/diverse/setup/laravel",
+		"/C/Windows/System32/drivers/etc/hosts",
+		"/C/xampp/apache/conf/extra/httpd-vhosts.conf",
+		"/D/Dropbox/www/laravel/laravel1/config/app.php",
+		"/D/Dropbox/www/laravel/laravel1/app/Http/Controllers/PhotoController.php",
+		"/D/Dropbox/www/laravel/laravel1/app/Http/Requests/ShowPhotosRequest.php",
+		"/D/Dropbox/www/laravel/laravel1/app/Album.php",
+		"/D/Dropbox/www/laravel/laravel1/app/Http/Middleware/Authenticate.php",
+		"/D/Dropbox/www/laravel/laravel1/app/Http/Controllers/AlbumController.php",
+		"/D/Dropbox/www/laravel/laravel1/app/User.php",
+		"/D/Dropbox/www/laravel/laravel1/app/Photo.php",
+		"/D/Dropbox/www/laravel/laravel1/app/Http/Controllers/UserController.php",
+		"/D/Dropbox/www/laravel/laravel1/app/Http/Requests/EditProfileRequest.php",
+		"/D/Dropbox/www/laravel/laravel1/app/Http/Controllers/Auth/AuthController.php",
+		"/D/Dropbox/www/laravel/laravel1/app/Http/Requests/PasswordRecoveryRequest.php",
+		"/D/Dropbox/www/laravel/laravel1/app/Http/Requests/Request.php",
+		"/D/Dropbox/www/laravel/laravel1/vendor/laravel/framework/src/Illuminate/Foundation/Http/FormRequest.php",
+		"/D/Dropbox/www/laravel/laravel1/vendor/laravel/framework/src/Illuminate/Contracts/Validation/ValidatesWhenResolved.php",
+		"/D/Dropbox/www/laravel/laravel1/app/Exceptions/Handler.php",
+		"/D/Dropbox/www/laravel/laravel1/.env",
+		"/D/Dropbox/www/laravel/laravel1/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php",
+		"/D/Dropbox/www/laravel/laravel1/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/VerifyCsrfToken.php",
+		"/D/Dropbox/www/laravel/laravel1/app/Http/Middleware/VerifyCsrfToken.php",
+		"/D/Dropbox/www/laravel/laravel1/vendor/laravel/framework/src/Illuminate/Contracts/Auth/Guard.php",
+		"/D/Dropbox/www/laravel/laravel1/vendor/laravel/framework/src/Illuminate/Database/Seeder.php",
+		"/D/Dropbox/www/laravel/laravel1/database/seeds/DatabaseSeeder.php",
+		"/D/Dropbox/www/laravel/laravel1/database/seeds/AlbumTableSeeder.php",
+		"/D/Dropbox/www/laravel/laravel1/database/seeds/UserTableSeeder.php",
+		"/D/Dropbox/www/laravel/laravel1/vendor/laravel/framework/src/Illuminate/Foundation/Auth/Access/AuthorizesRequests.php",
+		"/D/Dropbox/www/laravel/laravel1/resources/views/welcome.blade.php",
+		"/D/Dropbox/www/laravel/laravel1/app/Http/routes.php",
+		"/D/Dropbox/www/laravel/laravel1/app/Http/Controllers/WelcomeController.php",
+		"/D/Dropbox/www/laravel/laravel1/app/Http/Controllers/HomeController.php",
+		"/D/Dropbox/www/laravel/laravel1/app/Http/Controllers/Auth/PasswordController.php",
+		"/D/Dropbox/www/laravel/laravel1/vendor/laravel/framework/src/Illuminate/Foundation/Auth/AuthenticatesAndRegistersUsers.php",
+		"/D/Dropbox/www/laravel/laravel1/vendor/laravel/framework/src/Illuminate/Foundation/Auth/AuthenticatesUsers.php",
+		"/D/Dropbox/www/laravel/laravel1/app/Http/Controllers/Controller.php",
+		"/C/Users/victor92/OneDrive/Laravel/scripts/ImagesManager-master/database/migrations/2014_10_12_000000_create_users_table.php",
+		"/D/Dropbox/www/laravel/laravel1/database/migrations/2014_10_12_000000_create_users_table.php",
+		"/D/Dropbox/diverse/setup/git",
+		"/D/Dropbox/www/laravel/laravel1/laravel1.sublime-project",
+		"/D/Dropbox/diverse/setup/setup_dev_python_django",
+		"/D/Dropbox/diverse/setup/setup_lamp",
+		"/D/Dropbox/www/codeigniter/codeigniter-kewl-cms/kewlcms/index.php",
+		"/D/Dropbox/www/codeigniter/codeigniter-PayPalCheckout/thegamingplace/index.php",
+		"/D/Dropbox/www/codeigniter/codeigniter-PayPalCheckout/thegamingplace/application/config/config.php",
+		"/D/Dropbox/www/codeigniter/codeigniter-kewl-cms/kewlcms/application/config/config.php",
+		"/D/Dropbox/diverse/setup/setup_dev_ruby_and Rails",
+		"/D/Dropbox/www/codeigniter/ci2/application/config/database.php",
+		"/D/Dropbox/www/codeigniter/ci1/application/config/database.php",
+		"/D/Dropbox/www/codeigniter/ci21/application/config/database.php",
+		"/C/Users/victor92/OneDrive/codeigniter/codeigniter-PayPalCheckout/thegamingplace/application/config/config.php",
+		"/C/Users/victor92/OneDrive/codeigniter/scripts/codeigniter-PayPalCheckout/thegamingplace/application/config/config.php",
+		"/D/Dropbox/www/a-2015/test.php",
+		"/D/Dropbox/www/codeigniter/ci3-mongo/application/controllers/Session.php",
+		"/D/Dropbox/www/codeigniter/ci3-mongo/application/core/MY_Controller.php",
+		"/D/Dropbox/www/codeigniter/ci3-mongo/application/core/MY_Input.php",
+		"/D/Dropbox/www/codeigniter/ci3-mongo/application/core/MY_Model.php",
+		"/D/Dropbox/www/codeigniter/ci3-mongo/application/models/Session_Model.php",
+		"/D/Dropbox/www/codeigniter/ci3-mongo/application/config/autoload.php",
+		"/D/Dropbox/www/codeigniter/ci3-mongo/application/config/config.php",
+		"/D/Dropbox/www/codeigniter/ci3-mongo/.htaccess",
+		"/D/Dropbox/www/codeigniter/ci-hmvc/application/modules/auths/controllers/auths.php",
+		"/D/Dropbox/www/codeigniter/ci_intro/application/controllers/api.php",
+		"/D/Dropbox/www/codeigniter/ci-hmvc/application/modules/auths/views/register.php",
+		"/D/Dropbox/www/codeigniter/ci-hmvc/application/core/MY_Model.php",
+		"/D/Dropbox/www/codeigniter/ci-hmvc/application/modules/auths/views/auths.php",
+		"/D/Dropbox/www/codeigniter/ci_intro/application/views/home/inc/header_view.php",
+		"/D/Dropbox/www/codeigniter/ci-hmvc/assets/js/main.js",
+		"/D/Dropbox/www/codeigniter/ci-hmvc/application/config/config.php",
+		"/D/Dropbox/www/codeigniter/ci21/application/config/config.php",
+		"/D/Dropbox/www/codeigniter/ci21/application/models/user_m.php",
+		"/D/Dropbox/www/codeigniter/ci21/application/controllers/admin/user.php",
+		"/D/Dropbox/www/codeigniter/ci21/application/core/my_model.php",
+		"/C/Users/victor92/Downloads/ci_sessions.sql",
+		"/D/Dropbox/www/codeigniter/ci21/application/views/admin/user/edit.php",
+		"/D/Dropbox/www/codeigniter/ci21/application/controllers/test.php",
+		"/D/Dropbox/www/codeigniter/ci-hmvc/application/modules/auths/models/user_model.php",
+		"/D/Dropbox/www/codeigniter/ci-hmvc/application/config/form_validation.php",
+		"/D/Dropbox/www/codeigniter/ci-hmvc/application/modules/auths/views/change_password.php",
+		"/D/Dropbox/www/codeigniter/ci-hmvc/application/helpers/data_helper.php",
+		"/D/Dropbox/www/codeigniter/ci-hmvc/application/modules/auths/views/user.php",
+		"/D/Dropbox/www/codeigniter/ci-hmvc/application/modules/auths/views/nav.php",
+		"/D/Dropbox/www/codeigniter/ci-hmvc/application/modules/auths/views/index.php",
+		"/D/Dropbox/www/codeigniter/ci-hmvc/application/modules/auths/views/forgot_password.php",
+		"/D/Dropbox/www/codeigniter/ci-hmvc/application/core/MY_Controller.php",
+		"/D/Dropbox/www/codeigniter/ci1/application/controllers/user.php",
+		"/D/Dropbox/www/codeigniter/ci2/application/controllers/login.php",
+		"/D/Dropbox/www/codeigniter/ci-hmvc/application/modules/auths/views/test.php",
+		"/D/Dropbox/www/codeigniter/ci-hmvc/application/config/routes.php",
+		"/C/Users/victor92/Downloads/deluxe-popup-window.js",
+		"/C/Users/victor92/Downloads/blapy-2015-09-02/demos/demo3-posted-input/testForm.php",
+		"/C/Users/victor92/Downloads/nubuilderprodemo/nubuilderprodemo.sql",
+		"/C/Users/victor92/Downloads/table-pagination-2015-10-27/example.html",
+		"/C/Users/victor92/Downloads/table-pagination-2015-10-27/tablePagination.class.js",
+		"/D/Dropbox/www/codeigniter/ci-hmvc/application/libraries/my_form_validation.php",
+		"/D/Dropbox/www/codeigniter/ci-hmvc/application/config/autoload.php",
+		"/D/Dropbox/www/codeigniter/rest-api/application/libraries/my_form_validation.php",
+		"/D/Dropbox/www/codeigniter/rest-api/application/controllers/api.php",
+		"/D/Dropbox/www/codeigniter/rest-api/application/core/MY_Model.php",
+		"/D/Dropbox/www/codeigniter/ci1/application/models/usermodel.php",
+		"/D/Dropbox/www/codeigniter/ci1/application/controllers/auth.php",
+		"/D/Dropbox/www/codeigniter/ci1/application/models/membership.php",
+		"/D/Dropbox/www/codeigniter/ci/application/controllers/users.php",
+		"/D/Dropbox/www/codeigniter/ci/application/models/user_model.php",
+		"/D/Dropbox/www/codeigniter/ci1/application/core/my_model.php",
+		"/D/Dropbox/www/codeigniter/ci-hmvc/application/modules/auths/views/signup.php",
+		"/D/Dropbox/www/codeigniter/ci-hmvc/assets/css/main.css",
+		"/D/Dropbox/www/codeigniter/ci-hmvc/application/modules/home/controller/homes.php",
+		"/D/Dropbox/www/codeigniter/ci-hmvc/assets/css/style.css",
+		"/D/Dropbox/www/codeigniter/ci-hmvc/application/core/my_controller.php",
+		"/D/Dropbox/www/codeigniter/ci2/application/views/login_form.php",
+		"/D/Dropbox/www/codeigniter/ci21/application/views/admin/user/login.php",
+		"/D/Dropbox/www/codeigniter/ci21/application/views/admin/_layout_modal.php",
+		"/D/Dropbox/www/codeigniter/ci-hmvc/application/modules/auths/views/auths/layout.php",
+		"/D/Dropbox/www/codeigniter/ci-hmvc/application/modules/auths/views/layouts/layout.php",
+		"/D/Dropbox/www/codeigniter/ci-hmvc/application/modules/auths/views/login.php",
+		"/D/Dropbox/www/codeigniter/ci-hmvc/application/modules/welcome/controllers/Welcome.php",
+		"/D/Dropbox/www/codeigniter/ci-hmvc/application/modules/auth/controllers/auths.php",
+		"/D/Dropbox/www/codeigniter/ci-hmvc/application/modules/auth/views/layouts/auths.php",
+		"/D/Dropbox/www/codeigniter/ci-hmvc/application/views/auths/index.php",
+		"/D/Dropbox/www/codeigniter/ci-hmvc/application/modules/auths/views/auths/login.php",
+		"/D/Dropbox/www/codeigniter/ci-hmvc/application/modules/auth/views/auths/index.php",
+		"/D/Dropbox/www/codeigniter/ci-hmvc/application/modules/auth/views/login/index.php",
+		"/D/Dropbox/www/codeigniter/ci-hmvc/application/modules/auth/views/auth/auth.php",
+		"/D/Dropbox/www/codeigniter/ci-hmvc/application/modules/auth/views/layouts/layout.php",
+		"/D/Dropbox/www/codeigniter/ci-hmvc/application/modules/auth/index.html"
+	],
+	"find":
+	{
+		"height": 45.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"ImagesManager",
+			";\n",
+			"ImagesManager",
+			"Album",
+			"ImagesManager",
+			"\n	",
+			"	{",
+			"Photo",
+			"$this->data['user']",
+			"callback_parameters",
+			"_set_where",
+			"return_type",
+			"set_where",
+			"callback_parameters",
+			"trigger",
+			"insert",
+			")",
+			"array(",
+			"array()",
+			"_set_where",
+			"_fetch_table",
+			"trigger",
+			"_set_where",
+			"json",
+			"mailformed",
+			"content",
+			"page",
+			"content",
+			"container",
+			"password_verify",
+			"php echo ",
+			"Mobirise",
+			"View",
+			"contraller",
+			"self",
+			"error",
+			"erro",
+			" $",
+			"$config",
+			"<?",
+			"set_error_delimiters",
+			"clearfix",
+			"_require_login",
+			"data-form-email",
+			"site_header",
+			"\n});",
+			">\n",
+			"ajax-contacts",
+			"    }",
+			"packages",
+			">",
+			"getData",
+			"showResult",
+			"body",
+			"railties",
+			"rollback",
+			"migrate",
+			"content_inner",
+			"forgot_password",
+			"delete_session",
+			"wide-map",
+			"fa",
+			"fa-heart",
+			"main-content",
+			"sr",
+			"cache_dir",
+			"$cache_dir",
+			"cached_time",
+			"$this->valid",
+			" <?",
+			"request"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"]",
+			"[",
+			"[]",
+			"=",
+			"mobilefirst",
+			""
+		],
+		"reverse": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "resources/views/app.blade.php",
+					"settings":
+					{
+						"buffer_size": 2411,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1418,
+								1418
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/Laravel Blade Highlighter/laravel-blade.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1512.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 38.0
+	},
+	"input":
+	{
+		"height": 36.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 172.0
+	},
+	"replace":
+	{
+		"height": 80.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"events",
+				"a-2015/ajax_crud_2/examples/events/events.php"
+			],
+			[
+				".css",
+				"a-2014/php-objects-patterns-practice-3-code/9. Generating Objects/listing9.11.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/D/Dropbox/www/laravel/laravel3/laravel3.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 207.0,
+	"status_bar_visible": true
+}

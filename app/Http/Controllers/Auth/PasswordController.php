@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Http\Controllers\Auth;
+namespace laravel1\Http\Controllers\Auth;
 
-use App\Http\Controllers\Controller;
+use laravel1\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\ResetsPasswords;
 
 class PasswordController extends Controller
@@ -30,3 +30,4 @@ class PasswordController extends Controller
         $this->middleware('guest');
     }
 }
+//this controller has to be deleted

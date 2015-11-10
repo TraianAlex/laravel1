@@ -11,6 +11,16 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
+
+Route::controllers
+([
+	'home' => 'HomeController',
+	'auth' => 'Auth\AuthController',
+	'validated/user' => 'UserController',
+	'validated/photos' => 'PhotoController',
+	'validated/albums' => 'AlbumController',
+	'/' => 'WelcomeController',
+]);
