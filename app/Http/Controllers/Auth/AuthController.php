@@ -35,12 +35,12 @@ class AuthController extends Controller
     {
         $this->middleware('guest', ['except' => 'getLogout']);
     }
-
+    //
     public function getRecoverPassword()
     {
         return view('auth.recover');
     }
-
+    //
     public function postRecoverPassword(PasswordRecoveryRequest $request)
     {
         //return 'recovering password';
@@ -51,7 +51,7 @@ class AuthController extends Controller
 
         if($user->question === $question && Hash::check($answer,$user->answer))
         {
-            $user->password = bcrypt($request->get('password'));
+            $user->password = $request->get('password');//bcrypt(
 
             $user->save();
 
@@ -90,7 +90,7 @@ class AuthController extends Controller
         return User::create([
             'name' => $data['name'],
             'email' => $data['email'],
-            'password' => bcrypt($data['password']),
+            'password' => $data['password'],//bcrypt moved in model set attribute password
             'question' => $data['question'],
             'answer' => bcrypt($data['answer'])
         ]);

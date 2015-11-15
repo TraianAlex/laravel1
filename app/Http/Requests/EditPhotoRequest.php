@@ -4,9 +4,11 @@ namespace laravel1\Http\Requests;
 
 use laravel1\Http\Requests\Request;
 
+use laravel1\Photo;
+use laravel1\Album;
 use Auth;
 
-class ShowPhotosRequest extends Request
+class EditPhotoRequest extends Request
 {
     /**
      * Determine if the user is authorized to make this request.
@@ -15,9 +17,9 @@ class ShowPhotosRequest extends Request
      */
     public function authorize()
     {
-        $user = Auth::user();
         $id = $this->get('id');
-        $album = $user->albums()->find($id);
+        $photo = Photo::find($id);
+        $album = Auth::user()->albums()->find($photo->album_id);
         return ($album) ? true : false;
     }
 
@@ -29,12 +31,10 @@ class ShowPhotosRequest extends Request
     public function rules()
     {
         return [
-            'id' => 'required'
+            'id' => 'required|exists:photos,id',
+            'title' => 'required',
+            'description' => 'required',
+            'image' => 'image|max:20000'
         ];
-    }
-
-    public function forbiddenResponse()
-    {
-        return $this->redirector->to('/');
     }
 }

@@ -29,5 +29,7 @@ class Kernel extends HttpKernel
         'auth' => \laravel1\Http\Middleware\Authenticate::class,
         'auth.basic' => \Illuminate\Auth\Middleware\AuthenticateWithBasicAuth::class,
         'guest' => \laravel1\Http\Middleware\RedirectIfAuthenticated::class,
+        'exist-album' => \laravel1\Http\Middleware\ExistAlbumMiddleware::class,
+        'exist-photo' => \laravel1\Http\Middleware\ExistPhotoMiddleware::class,
     ];
 }

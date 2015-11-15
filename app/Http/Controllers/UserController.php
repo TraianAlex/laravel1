@@ -19,19 +19,18 @@ class UserController extends Controller
 
     public function getEditProfile()
 	{
-		return view('user.edit-profile');//return 'Showing the edit profile form';
+		return view('user.edit-profile');
 	}
 
 	public function postEditProfile(EditProfileRequest $request)
 	{
-		//return 'Changing the profile';
 		$user = Auth::user();
 
 		$user->name = $request->get('name');
 
 		if($request->has('password'))
 		{
-			$user->password = bcrypt($request->get('password'));
+			$user->password = $request->get('password');//removed bcrypt and set attribute in model
 		}
 
 		if($request->has('question') || $request->has('answer'))

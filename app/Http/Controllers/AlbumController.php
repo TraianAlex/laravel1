@@ -9,85 +9,76 @@ use laravel1\Http\Controllers\Controller;
 
 use laravel1\Album;
 use Auth;
+use laravel1\Http\Requests\CreateAlbumRequest;
+use laravel1\Http\Requests\EditAlbumRequest;
+use laravel1\Http\Requests\DeleteAlbumRequest;
 
 class AlbumController extends Controller
 {
     public function __construct()
     {
     	$this->middleware('auth');
+    	$this->middleware('exist-album', ['only' => ['getEditAlbum']]);
     }
 
     public function getIndex()
 	{
-		$albums = Auth::user()->albums;//return 'Showing all the user albums';
+		$albums = Auth::user()->albums;
 		return view('albums.show', ['albums' => $albums]);
 	}
 
 	public function getCreateAlbum()
 	{
-		return 'showing the create album form';
-		//return view('albums.create-album');
+		return view('albums.create-album');
 	}
 
 	public function postCreateAlbum(CreateAlbumRequest $request)
 	{
-		return 'creating album';
-		// $user = Auth::user();
+		$user = Auth::user();
+		$title = $request->get('title');
+		$description = $request->get('description');
+		Album::create(
+			[
+				'title' => $title,
+				'description' => $description,
+				'user_id' => $user->id
+			]
+		);
 
-		// $title = $request->get('title');
-		// $description = $request->get('description');
-
-		// Album::create
-		// (
-		// 	[
-		// 		'title' => $title,
-		// 		'description' => $description,
-		// 		'user_id' => $user->id
-		// 	]
-		// );
-
-
-		// return redirect('validated/albums/')->with(['album_created' => 'The Album has been created.']);
+		return redirect('validated/albums/')->with(['album_created' => 'The Album has been created.']);
 	}
-
+	/**
+	 * used middleware to chech if is exist in database or is null or use
+	 * if(!$request->has('parameter')){return redirect('/validated/albums');}
+	 * if(!isset($id))return redirect('/validated/albums'); with $id=null param
+	 */
 	public function getEditAlbum($id)
 	{
-		return 'showing the edit album form';
-		// $album = Album::find($id);
-		// return view('albums.edit-album', ['album' => $album]);
+		$album = Album::find($id);
+		return view('albums.edit-album', ['album' => $album]);
 	}
 
 	public function postEditAlbum(EditAlbumRequest $request)
 	{
-		return 'editing album';
-		// $album = Album::find($request->get('id'));
-		
-		// $album->title = $request->get('title');
-		// $album->description = $request->get('description');
-
-		// $album->save();
-
-		// return redirect('validated/albums')->with(['edited' => 'The album has been edited']);
+		$album = Album::find($request->get('id'));
+		$album->title = $request->get('title');
+		$album->description = $request->get('description');
+		$album->save();
+		return redirect('validated/albums')->with(['edited' => 'The album has been edited']);
 	}
 
 	public function postDeleteAlbum(DeleteAlbumRequest $request)
 	{
-		return 'deleting the album';
-		// $album = ALbum::find($request->get('id'));
+		$album = ALbum::find($request->get('id'));
+		$photos = $album->photos;
+		$controller = new PhotoController;
 
-		// $photos = $album->photos;
-
-		// $controller = new PhotoController;
-
-		// foreach ($photos as $photo)
-		// {
-		// 	$controller->deleteImage($photo->path);
-		// 	$photo->delete();
-		// }
-
-		// $album->delete();
-
-		// return redirect('validated/albums')->with(['deleted' => 'The album was deleted']);
+		foreach ($photos as $photo)
+		{
+			$controller->deleteImage($photo->path);
+			$photo->delete();
+		}
+		$album->delete();
+		return redirect('validated/albums')->with(['deleted' => 'The album was deleted']);
 	}
-
 }

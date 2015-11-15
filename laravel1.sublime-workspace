@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"req",
+				"request"
+			],
+			[
+				"re",
+				"request"
+			],
+			[
 				"is",
 				"is_numeric"
 			],
@@ -154,10 +162,6 @@
 			[
 				"user",
 				"user_type"
-			],
-			[
-				"req",
-				"required"
 			],
 			[
 				"db",
@@ -427,14 +431,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "resources/views/app.blade.php",
-			"settings":
-			{
-				"buffer_size": 2411,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -492,27 +488,46 @@
 	},
 	"file_history":
 	[
+		"/D/Dropbox/www/laravel/laravel1/app/Http/Controllers/PhotoController.php",
+		"/D/Dropbox/www/laravel/laravel1/app/Http/Requests/DeletePhotoRequest.php",
+		"/D/Dropbox/www/laravel/laravel1/app/Http/Requests/DeleteAlbumRequest.php",
+		"/D/Dropbox/www/laravel/laravel1/app/Http/Controllers/AlbumController.php",
+		"/D/Dropbox/www/laravel/laravel1/app/Photo.php",
+		"/D/Dropbox/www/laravel/laravel1/app/Http/Middleware/ExistPhotoMiddleware.php",
+		"/D/Dropbox/www/laravel/laravel1/app/Http/Middleware/ExistAlbumMiddleware.php",
+		"/D/Dropbox/www/laravel/laravel1/app/Http/Kernel.php",
+		"/D/Dropbox/www/laravel/laravel1/app/Http/Requests/EditPhotoRequest.php",
+		"/D/Dropbox/www/laravel/laravel1/app/Http/Requests/EditAlbumRequest.php",
+		"/D/Dropbox/www/laravel/laravel1/app/Http/Requests/CreatePhotoRequest.php",
+		"/D/Dropbox/www/laravel/laravel1/resources/views/albums/show.blade.php",
+		"/D/Dropbox/www/laravel/laravel1/.env",
+		"/D/Dropbox/www/laravel/laravel1/app/Http/Requests/ShowPhotosRequest.php",
+		"/D/Dropbox/www/laravel/laravel1/resources/views/albums/edit-album.blade.php",
+		"/D/Dropbox/www/laravel/laravel1/app/Http/Requests/CreateAlbumRequest.php",
+		"/D/Dropbox/www/laravel/laravel1/app/Http/Controllers/UserController.php",
+		"/D/Dropbox/www/laravel/laravel1/app/Http/Controllers/WelcomeController.php",
+		"/D/Dropbox/www/laravel/laravel1/resources/views/albums/create-album.blade.php",
+		"/D/Dropbox/www/laravel/laravel1/resources/views/photos/show.blade.php",
+		"/D/Dropbox/www/laravel/laravel1/app/Http/routes.php",
+		"/D/Dropbox/www/laravel/laravel1/app/Http/Controllers/Auth/AuthController.php",
+		"/D/Dropbox/www/laravel/laravel1/app/User.php",
+		"/D/Dropbox/www/laravel/laravel1/vendor/laravel/framework/src/Illuminate/Foundation/Auth/AuthenticatesAndRegistersUsers.php",
+		"/D/Dropbox/www/laravel/laravel1/vendor/laravel/framework/src/Illuminate/Foundation/Auth/AuthenticatesUsers.php",
+		"/D/Dropbox/diverse/setup/setup_lamp",
+		"/D/Dropbox/www/laravel/laravel1/resources/views/app.blade.php",
 		"/C/Users/victor92/Downloads/phpfox_.sql",
 		"/D/Dropbox/diverse/setup/laravel",
 		"/C/Windows/System32/drivers/etc/hosts",
 		"/C/xampp/apache/conf/extra/httpd-vhosts.conf",
 		"/D/Dropbox/www/laravel/laravel1/config/app.php",
-		"/D/Dropbox/www/laravel/laravel1/app/Http/Controllers/PhotoController.php",
-		"/D/Dropbox/www/laravel/laravel1/app/Http/Requests/ShowPhotosRequest.php",
 		"/D/Dropbox/www/laravel/laravel1/app/Album.php",
 		"/D/Dropbox/www/laravel/laravel1/app/Http/Middleware/Authenticate.php",
-		"/D/Dropbox/www/laravel/laravel1/app/Http/Controllers/AlbumController.php",
-		"/D/Dropbox/www/laravel/laravel1/app/User.php",
-		"/D/Dropbox/www/laravel/laravel1/app/Photo.php",
-		"/D/Dropbox/www/laravel/laravel1/app/Http/Controllers/UserController.php",
 		"/D/Dropbox/www/laravel/laravel1/app/Http/Requests/EditProfileRequest.php",
-		"/D/Dropbox/www/laravel/laravel1/app/Http/Controllers/Auth/AuthController.php",
 		"/D/Dropbox/www/laravel/laravel1/app/Http/Requests/PasswordRecoveryRequest.php",
 		"/D/Dropbox/www/laravel/laravel1/app/Http/Requests/Request.php",
 		"/D/Dropbox/www/laravel/laravel1/vendor/laravel/framework/src/Illuminate/Foundation/Http/FormRequest.php",
 		"/D/Dropbox/www/laravel/laravel1/vendor/laravel/framework/src/Illuminate/Contracts/Validation/ValidatesWhenResolved.php",
 		"/D/Dropbox/www/laravel/laravel1/app/Exceptions/Handler.php",
-		"/D/Dropbox/www/laravel/laravel1/.env",
 		"/D/Dropbox/www/laravel/laravel1/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php",
 		"/D/Dropbox/www/laravel/laravel1/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/VerifyCsrfToken.php",
 		"/D/Dropbox/www/laravel/laravel1/app/Http/Middleware/VerifyCsrfToken.php",
@@ -523,19 +538,14 @@
 		"/D/Dropbox/www/laravel/laravel1/database/seeds/UserTableSeeder.php",
 		"/D/Dropbox/www/laravel/laravel1/vendor/laravel/framework/src/Illuminate/Foundation/Auth/Access/AuthorizesRequests.php",
 		"/D/Dropbox/www/laravel/laravel1/resources/views/welcome.blade.php",
-		"/D/Dropbox/www/laravel/laravel1/app/Http/routes.php",
-		"/D/Dropbox/www/laravel/laravel1/app/Http/Controllers/WelcomeController.php",
 		"/D/Dropbox/www/laravel/laravel1/app/Http/Controllers/HomeController.php",
 		"/D/Dropbox/www/laravel/laravel1/app/Http/Controllers/Auth/PasswordController.php",
-		"/D/Dropbox/www/laravel/laravel1/vendor/laravel/framework/src/Illuminate/Foundation/Auth/AuthenticatesAndRegistersUsers.php",
-		"/D/Dropbox/www/laravel/laravel1/vendor/laravel/framework/src/Illuminate/Foundation/Auth/AuthenticatesUsers.php",
 		"/D/Dropbox/www/laravel/laravel1/app/Http/Controllers/Controller.php",
 		"/C/Users/victor92/OneDrive/Laravel/scripts/ImagesManager-master/database/migrations/2014_10_12_000000_create_users_table.php",
 		"/D/Dropbox/www/laravel/laravel1/database/migrations/2014_10_12_000000_create_users_table.php",
 		"/D/Dropbox/diverse/setup/git",
 		"/D/Dropbox/www/laravel/laravel1/laravel1.sublime-project",
 		"/D/Dropbox/diverse/setup/setup_dev_python_django",
-		"/D/Dropbox/diverse/setup/setup_lamp",
 		"/D/Dropbox/www/codeigniter/codeigniter-kewl-cms/kewlcms/index.php",
 		"/D/Dropbox/www/codeigniter/codeigniter-PayPalCheckout/thegamingplace/index.php",
 		"/D/Dropbox/www/codeigniter/codeigniter-PayPalCheckout/thegamingplace/application/config/config.php",
@@ -605,21 +615,7 @@
 		"/D/Dropbox/www/codeigniter/ci-hmvc/assets/css/style.css",
 		"/D/Dropbox/www/codeigniter/ci-hmvc/application/core/my_controller.php",
 		"/D/Dropbox/www/codeigniter/ci2/application/views/login_form.php",
-		"/D/Dropbox/www/codeigniter/ci21/application/views/admin/user/login.php",
-		"/D/Dropbox/www/codeigniter/ci21/application/views/admin/_layout_modal.php",
-		"/D/Dropbox/www/codeigniter/ci-hmvc/application/modules/auths/views/auths/layout.php",
-		"/D/Dropbox/www/codeigniter/ci-hmvc/application/modules/auths/views/layouts/layout.php",
-		"/D/Dropbox/www/codeigniter/ci-hmvc/application/modules/auths/views/login.php",
-		"/D/Dropbox/www/codeigniter/ci-hmvc/application/modules/welcome/controllers/Welcome.php",
-		"/D/Dropbox/www/codeigniter/ci-hmvc/application/modules/auth/controllers/auths.php",
-		"/D/Dropbox/www/codeigniter/ci-hmvc/application/modules/auth/views/layouts/auths.php",
-		"/D/Dropbox/www/codeigniter/ci-hmvc/application/views/auths/index.php",
-		"/D/Dropbox/www/codeigniter/ci-hmvc/application/modules/auths/views/auths/login.php",
-		"/D/Dropbox/www/codeigniter/ci-hmvc/application/modules/auth/views/auths/index.php",
-		"/D/Dropbox/www/codeigniter/ci-hmvc/application/modules/auth/views/login/index.php",
-		"/D/Dropbox/www/codeigniter/ci-hmvc/application/modules/auth/views/auth/auth.php",
-		"/D/Dropbox/www/codeigniter/ci-hmvc/application/modules/auth/views/layouts/layout.php",
-		"/D/Dropbox/www/codeigniter/ci-hmvc/application/modules/auth/index.html"
+		"/D/Dropbox/www/codeigniter/ci21/application/views/admin/user/login.php"
 	],
 	"find":
 	{
@@ -734,34 +730,6 @@
 		{
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "resources/views/app.blade.php",
-					"settings":
-					{
-						"buffer_size": 2411,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1418,
-								1418
-							]
-						],
-						"settings":
-						{
-							"auto_complete": false,
-							"syntax": "Packages/Laravel Blade Highlighter/laravel-blade.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 1512.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],

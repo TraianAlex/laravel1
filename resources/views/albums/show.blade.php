@@ -15,9 +15,9 @@
 @endif
 
 @if(Session::has('album_created'))						
-<div class="alert alert-success">
-	<strong>Great!</strong> {{Session::get('album_created')}}<br><br>
-</div>
+	<div class="alert alert-success">
+		<strong>Great!</strong> {{Session::get('album_created')}}<br><br>
+	</div>
 @endif
 
 <div class="container-fluid"
@@ -25,7 +25,7 @@
 @if(sizeof($albums) > 0)
 	@foreach($albums as $index => $album)
 		@if($index%3 == 0)
-		<div class="row">
+			<div class="row">
 		@endif
 		  <div class="col-sm-6 col-md-4">
 		    <div class="thumbnail">
@@ -47,9 +47,9 @@
 		@endif
 	@endforeach
 @else
-<div class="alert alert-danger">
-	<p>You don't have any album yet. Create one.</p>
-</div>
+	<div class="alert alert-danger">
+		<p>You don't have any album yet. Create one.</p>
+	</div>
 @endif
-</div>
+	</div>
 @endsection

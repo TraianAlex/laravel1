@@ -47,9 +47,9 @@
 		@endif
 	@endforeach
 @else
-<div class="alert alert-danger">
-	<p>This album is empty. Please create a new photo.</p>
-</div>
+	<div class="alert alert-danger">
+		<p>This album is empty. Please create a new photo.</p>
+	</div>
 @endif
-</div>
+	</div>
 @endsection

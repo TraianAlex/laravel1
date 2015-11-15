@@ -4,9 +4,10 @@ namespace laravel1\Http\Requests;
 
 use laravel1\Http\Requests\Request;
 
+use ImagesManager\Album;
 use Auth;
 
-class ShowPhotosRequest extends Request
+class EditAlbumRequest extends Request
 {
     /**
      * Determine if the user is authorized to make this request.
@@ -29,7 +30,9 @@ class ShowPhotosRequest extends Request
     public function rules()
     {
         return [
-            'id' => 'required'
+            'id' => 'required|exists:albums,id',
+            'title' => 'required',
+            'description' => 'required'
         ];
     }
 
