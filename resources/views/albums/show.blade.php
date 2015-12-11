@@ -21,7 +21,7 @@
 @endif
 
 <div class="container-fluid"
-<p><a href="/validated/albums/create-album" class="btn btn-primary" role="button">Create Album</a></p>
+<p><a href="{{ url("/validated/albums/create-album") }}" class="btn btn-primary" role="button">Create Album</a></p>
 @if(sizeof($albums) > 0)
 	@foreach($albums as $index => $album)
 		@if($index%3 == 0)
@@ -32,9 +32,9 @@
 		      <div class="caption">
 		        <h3>{{$album->title}}</h3>
 		        <p>{{$album->description}}</p>
-		        <p><a href="/validated/photos?id={{$album->id}}" class="btn btn-primary" role="button">Show Photos</a></p>
-		        <p><a href="/validated/albums/edit-album/{{$album->id}}" class="btn btn-primary" role="button">Edit Album</a></p>
-		        <form action="/validated/albums/delete-album" method="POST">
+		        <p><a href="{{ url("/validated/photos?id=$album->id") }}" class="btn btn-primary" role="button">Show Photos</a></p>
+		        <p><a href="{{ url("/validated/albums/edit-album/$album->id") }}" class="btn btn-primary" role="button">Edit Album</a></p>
+		        <form action="{{ url("/validated/albums/delete-album") }}" method="POST">
 					<input type="hidden" name="_token" value="{{ csrf_token() }}" required>
 					<input type="hidden" name="id" value="{{$album->id}}" required>
 					<input class="btn btn-danger" role="button" type="submit" value="Delete"/>

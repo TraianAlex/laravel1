@@ -2,7 +2,7 @@
 
 @section('content')
 <div class="container-fluid">
-	<form class="form-horizontal" role="form" method="POST" action="/validated/photos/edit-photo?id={{$photo->id}}" enctype="multipart/form-data">
+	<form class="form-horizontal" role="form" method="POST" action="{{ url("/validated/photos/edit-photo?id=$photo->id") }}" enctype="multipart/form-data">
 		<input type="hidden" name="_token" value="{{ csrf_token() }}" required>
 		<div class="form-group required required">
 			<label class="col-md-4 control-label">Title</label>

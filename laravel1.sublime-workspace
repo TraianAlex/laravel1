@@ -488,6 +488,10 @@
 	},
 	"file_history":
 	[
+		"/D/Dropbox/www/laravel/laravel1/resources/views/app.blade.php",
+		"/D/Dropbox/frontend/jquery/jquery-test.html",
+		"/D/Dropbox/www/laravel/laravel1/public/css/animate.css",
+		"/D/Dropbox/www/laravel/laravel1/resources/views/albums/show.blade.php",
 		"/D/Dropbox/www/laravel/laravel1/app/Http/Controllers/PhotoController.php",
 		"/D/Dropbox/www/laravel/laravel1/app/Http/Requests/DeletePhotoRequest.php",
 		"/D/Dropbox/www/laravel/laravel1/app/Http/Requests/DeleteAlbumRequest.php",
@@ -499,7 +503,6 @@
 		"/D/Dropbox/www/laravel/laravel1/app/Http/Requests/EditPhotoRequest.php",
 		"/D/Dropbox/www/laravel/laravel1/app/Http/Requests/EditAlbumRequest.php",
 		"/D/Dropbox/www/laravel/laravel1/app/Http/Requests/CreatePhotoRequest.php",
-		"/D/Dropbox/www/laravel/laravel1/resources/views/albums/show.blade.php",
 		"/D/Dropbox/www/laravel/laravel1/.env",
 		"/D/Dropbox/www/laravel/laravel1/app/Http/Requests/ShowPhotosRequest.php",
 		"/D/Dropbox/www/laravel/laravel1/resources/views/albums/edit-album.blade.php",
@@ -514,7 +517,6 @@
 		"/D/Dropbox/www/laravel/laravel1/vendor/laravel/framework/src/Illuminate/Foundation/Auth/AuthenticatesAndRegistersUsers.php",
 		"/D/Dropbox/www/laravel/laravel1/vendor/laravel/framework/src/Illuminate/Foundation/Auth/AuthenticatesUsers.php",
 		"/D/Dropbox/diverse/setup/setup_lamp",
-		"/D/Dropbox/www/laravel/laravel1/resources/views/app.blade.php",
 		"/C/Users/victor92/Downloads/phpfox_.sql",
 		"/D/Dropbox/diverse/setup/laravel",
 		"/C/Windows/System32/drivers/etc/hosts",
@@ -613,9 +615,7 @@
 		"/D/Dropbox/www/codeigniter/ci-hmvc/assets/css/main.css",
 		"/D/Dropbox/www/codeigniter/ci-hmvc/application/modules/home/controller/homes.php",
 		"/D/Dropbox/www/codeigniter/ci-hmvc/assets/css/style.css",
-		"/D/Dropbox/www/codeigniter/ci-hmvc/application/core/my_controller.php",
-		"/D/Dropbox/www/codeigniter/ci2/application/views/login_form.php",
-		"/D/Dropbox/www/codeigniter/ci21/application/views/admin/user/login.php"
+		"/D/Dropbox/www/codeigniter/ci-hmvc/application/core/my_controller.php"
 	],
 	"find":
 	{
@@ -796,7 +796,7 @@
 		[
 			[
 				"",
-				"/D/Dropbox/www/laravel/laravel3/laravel3.sublime-project"
+				"/D/Dropbox/www/laravel/laravel4/laravel4.sublime-project"
 			]
 		],
 		"width": 380.0

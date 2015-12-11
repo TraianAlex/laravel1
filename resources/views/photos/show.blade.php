@@ -21,7 +21,7 @@
 @endif
 
 <div class="container-fluid">
-<p><a href="/validated/photos/create-photo?id={{$id}}" class="btn btn-primary" role="button">Create Photo</a></p>
+<p><a href="{{ url("/validated/photos/create-photo?id=$id") }}" class="btn btn-primary" role="button">Create Photo</a></p>
 @if(sizeof($photos) > 0)
 	@foreach($photos as $index => $photo)
 		@if($index%4 == 0)
@@ -29,13 +29,13 @@
 		@endif
 		  <div class="col-sm-6 col-md-3">
 		    <div class="thumbnail">
-		    	<img src="{{$photo->path}}">
+		    	<img src="{{ url($photo->path) }}">
 		      <div class="caption">
 		        <h3>{{$photo->title}}</h3>
 		        <p>{{$photo->description}}</p>
 		      </div>
-		      <p><a href="/validated/photos/edit-photo/{{$photo->id}}" class="btn btn-primary" role="button">Edit Photo</a></p>
-		      <form action="/validated/photos/delete-photo" method="POST">
+		      <p><a href="{{ url("/validated/photos/edit-photo/$photo->id") }}" class="btn btn-primary" role="button">Edit Photo</a></p>
+		      <form action="{{ url("/validated/photos/delete-photo") }}" method="POST">
 				<input type="hidden" name="_token" value="{{ csrf_token() }}" required>
 				<input type="hidden" name="id" value="{{$photo->id}}" required>
 				<input class="btn btn-danger" role="button" type="submit" value="Delete"/>
