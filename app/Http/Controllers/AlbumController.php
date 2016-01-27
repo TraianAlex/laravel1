@@ -34,14 +34,11 @@ class AlbumController extends Controller
 
 	public function postCreateAlbum(CreateAlbumRequest $request)
 	{
-		$user = Auth::user();
-		$title = $request->get('title');
-		$description = $request->get('description');
 		Album::create(
 			[
-				'title' => $title,
-				'description' => $description,
-				'user_id' => $user->id
+				'title' => $request->get('title'),
+				'description' => $request->get('description'),
+				'user_id' => auth()->user()->id
 			]
 		);
 

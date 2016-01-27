@@ -3,12 +3,9 @@
 namespace laravel1\Http\Controllers;
 
 use Illuminate\Http\Request;
-
 use laravel1\Http\Requests;
 use laravel1\Http\Controllers\Controller;
-
 use laravel1\Http\Requests\ShowPhotosRequest;
-
 use laravel1\Album;
 use laravel1\Photo;
 use Carbon\Carbon;
