@@ -12,6 +12,7 @@ use Carbon\Carbon;
 use laravel1\Http\Requests\CreatePhotoRequest;
 use laravel1\Http\Requests\EditPhotoRequest;
 use laravel1\Http\Requests\DeletePhotoRequest;
+use Illuminate\Support\Facades\Redis;
 
 class PhotoController extends Controller
 {
@@ -23,8 +24,15 @@ class PhotoController extends Controller
 
 	public function getIndex(ShowPhotosRequest $request)
 	{
+		// $photo_cached = Redis::get('photos:'.$request->get('id'));
+		// if(!$photo_cached){
+		// 	$photos = Album::find($request->get('id'))->photos;//
+		// 	Redis::set('photos:'.$request->get('id'), json_encode($photos));
+		// }else{
+		// 	$photos = json_decode($photo_cached);
+		// }
 		$photos = Album::find($request->get('id'))->photos;
-		return view('photos.show', ['photos' => $photos, 'id' => $request->get('id')]);
+		return view('photos.show', ['photos' => $photos, 'id' => $request->get('id')]);//
 	}
 
 	public function getCreatePhoto(Request $request)

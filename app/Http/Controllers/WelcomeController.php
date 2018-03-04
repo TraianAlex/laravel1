@@ -1,4 +1,7 @@
-<?php namespace laravel1\Http\Controllers;
+<?php
+
+namespace laravel1\Http\Controllers;
+use laravel1\Album;
 
 class WelcomeController extends Controller {
 	/**
@@ -17,7 +20,9 @@ class WelcomeController extends Controller {
 	 */
 	public function getIndex()
 	{
-		return view('welcome');
+		$photos = Album::find(1)->photos;
+		return view('welcome', ['photos' => $photos]);
+		//return view('welcome');
 	}
 
 }

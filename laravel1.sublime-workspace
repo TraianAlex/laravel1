@@ -4,478 +4,507 @@
 		"selected_items":
 		[
 			[
+				"email",
+				"emailsSent"
+			],
+			[
+				"preg",
+				"preg_quote"
+			],
+			[
+				"page",
+				"pagesByIP"
+			],
+			[
+				"ip",
+				"ip_unique"
+			],
+			[
+				"to",
+				"total_page"
+			],
+			[
+				"v",
+				"videos"
+			],
+			[
+				"col",
+				"col-md-6"
+			],
+			[
+				"sort",
+				"sortData"
+			],
+			[
+				"str_re",
+				"str_replace"
+			],
+			[
+				"tra",
+				"transformation"
+			],
+			[
+				"ca",
+				"category"
+			],
+			[
 				"req",
 				"request"
 			],
 			[
-				"re",
-				"request"
+				"bu",
+				"buyers"
 			],
 			[
-				"is",
-				"is_numeric"
+				"convert",
+				"convertValidationExceptionToResponse"
 			],
 			[
-				"is_in",
-				"is_integer"
+				"Va",
+				"ValidationException"
 			],
 			[
-				"is_s",
-				"is_string"
+				"strto",
+				"strtolower"
 			],
 			[
-				"table",
-				"TablePagination"
+				"genera",
+				"generateVerificationCode"
 			],
 			[
-				"met",
-				"method"
-			],
-			[
-				"vie",
-				"views"
-			],
-			[
-				"layout",
-				"layouts"
-			],
-			[
-				"layo",
-				"layouts"
-			],
-			[
-				"set",
-				"set_flashdata	CI - Set flashdata"
-			],
-			[
-				"field",
-				"field_name"
-			],
-			[
-				"fi",
-				"field_value"
-			],
-			[
-				"model",
-				"model_students"
-			],
-			[
-				"stude",
-				"student_id"
-			],
-			[
-				"load",
-				"load_library	CI - Load Library"
-			],
-			[
-				"use",
-				"user_model"
-			],
-			[
-				"loAD",
-				"load_model	CI - Load Model"
-			],
-			[
-				"arr",
-				"array_push"
-			],
-			[
-				"date_add",
-				"date_added"
-			],
-			[
-				"pub",
-				"public"
-			],
-			[
-				"publ",
-				"publication"
-			],
-			[
-				"issud",
-				"issue_id"
-			],
-			[
-				"iss",
-				"issue"
-			],
-			[
-				"magazi",
-				"magazine"
-			],
-			[
-				"members",
-				"membership_model"
-			],
-			[
-				"session",
-				"session_destroy"
-			],
-			[
-				"run",
-				"run_validation	CI - Run form validation"
-			],
-			[
-				"validate",
-				"validate_credentialsw"
-			],
-			[
-				"num_rows",
-				"db2_num_rows"
-			],
-			[
-				"form",
-				"form_validation	CI - Form Validation Rule"
-			],
-			[
-				"valida",
-				"form_validation"
-			],
-			[
-				"st",
-				"style	Tag"
-			],
-			[
-				"load_",
-				"load_model	CI - Load Model"
-			],
-			[
-				"el",
-				"else"
-			],
-			[
-				"end",
-				"endif"
-			],
-			[
-				"db_resul",
-				"db_result_array	CI - Active Record DB Result Array"
-			],
-			[
-				"post",
-				"postID"
-			],
-			[
-				"ret",
-				"return"
-			],
-			[
-				"user",
-				"user_type"
-			],
-			[
-				"db",
-				"db_where	CI - Active Record DB Where"
-			],
-			[
-				"http_buil",
-				"http_build_query"
-			],
-			[
-				"query",
-				"query_id"
-			],
-			[
-				"inli",
-				"inline-block"
-			],
-			[
-				"films",
-				"films2"
-			],
-			[
-				"sort",
-				"sort_order"
-			],
-			[
-				"html",
-				"htmlspecialchars"
-			],
-			[
-				"template",
-				"templates"
-			],
-			[
-				"font",
-				"font-size"
-			],
-			[
-				"border",
-				"border-bottom"
-			],
-			[
-				"border-",
-				"border-collapse"
-			],
-			[
-				"back",
-				"background-color"
-			],
-			[
-				"resul",
-				"results"
-			],
-			[
-				"backg",
-				"background-color"
-			],
-			[
-				"margi",
-				"margin"
-			],
-			[
-				"list",
-				"list-style-type"
-			],
-			[
-				"text",
-				"text-align"
-			],
-			[
-				"produ",
-				"products"
-			],
-			[
-				"pading",
-				"padding-left"
-			],
-			[
-				"json",
-				"json_encode"
-			],
-			[
-				"get_cal",
-				"get_calendar_data"
-			],
-			[
-				"bac",
-				"background-color"
-			],
-			[
-				"margin",
-				"margin"
-			],
-			[
-				"__",
-				"__construct"
-			],
-			[
-				"gallery",
-				"gallery_model"
-			],
-			[
-				"image",
-				"image_data"
-			],
-			[
-				"t",
-				"type"
-			],
-			[
-				"fon",
-				"font-size"
-			],
-			[
-				"paddin",
-				"padding"
-			],
-			[
-				"paddi",
-				"padding"
-			],
-			[
-				"pa",
-				"pagination"
-			],
-			[
-				"mar",
-				"margin"
-			],
-			[
-				"margin-",
-				"margin-bottom"
-			],
-			[
-				"is_lo",
-				"is_logged_in"
-			],
-			[
-				"first",
-				"first_name"
-			],
-			[
-				"di",
-				"display"
-			],
-			[
-				"meth",
-				"http_request_method_name"
-			],
-			[
-				"class",
-				"class_exists"
-			],
-			[
-				"respon",
-				"responseCaptcha2"
-			],
-			[
-				"pro",
-				"process"
-			],
-			[
-				"li",
-				"link	Tag"
-			],
-			[
-				"array_re",
-				"array_replace"
-			],
-			[
-				"array_fil",
-				"array_filter"
-			],
-			[
-				"url",
-				"urlencode"
-			],
-			[
-				"vi",
-				"view"
-			],
-			[
-				"sq",
-				"sqlite"
-			],
-			[
-				"is_a",
-				"is_array"
-			],
-			[
-				"preg",
-				"preg_replace"
-			],
-			[
-				"for",
-				"foreach	foreach …"
-			],
-			[
-				"print",
-				"print_r"
-			],
-			[
-				"strip",
-				"strip_tags"
+				"fore",
+				"foreign"
 			],
 			[
 				"stri",
-				"strip_tags"
+				"string"
 			],
 			[
-				"ht",
-				"htmlentities"
+				"veri",
+				"verification_token"
 			],
 			[
-				"filter",
-				"filter_input"
+				"Route",
+				"Route::resource\tRoute to a RESTful Controller"
 			],
 			[
-				"_g",
-				"_get_post	CI - $_GET / $_POST"
+				"rou",
+				"Route"
 			],
 			[
-				"ci2",
-				"ci2me	CodeIgniter 2 Model (CRUD)"
+				"Data",
+				"DatabaseMigrations"
 			],
 			[
-				"php",
-				"php_check_syntax"
+				"passwo",
+				"password_confirmation"
+			],
+			[
+				"res",
+				"resource"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"boo",
+				"bootstrap"
+			],
+			[
+				"ob",
+				"ob_start"
+			],
+			[
+				"array_s",
+				"array_sum"
+			],
+			[
+				"json_",
+				"json_encode"
+			],
+			[
+				"end",
+				"endDate"
+			],
+			[
+				"pa",
+				"params"
+			],
+			[
+				"pass",
+				"password"
+			],
+			[
+				"array_m",
+				"array_merge"
+			],
+			[
+				"file",
+				"fileinf"
+			],
+			[
+				"th",
+				"ncurses_typeahead"
+			],
+			[
+				"_",
+				"_c\tConstructor"
+			],
+			[
+				"cl",
+				"class\tclass …"
+			],
+			[
+				"cur",
+				"cursor"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"p",
+				"pmet\tProtected method"
+			],
+			[
+				"fun",
+				"functional\\SilexApplicationTest〔class〕"
+			],
+			[
+				"wi",
+				"writeln〔function〕"
+			],
+			[
+				"sho",
+				"showTasks"
+			],
+			[
+				"Client",
+				"ClientInterface〔interface〕"
+			],
+			[
+				"writ",
+				"writeln〔function〕"
+			],
+			[
+				"Pro",
+				"Provider2"
+			],
+			[
+				"Can",
+				"CanBeFiltered〔interface〕"
+			],
+			[
+				"fucn",
+				"function"
+			],
+			[
+				"contr",
+				"$controller〔variable〕"
+			],
+			[
+				"LogTo",
+				"LogToFile"
+			],
+			[
+				"thi",
+				"$this〔variable〕"
+			],
+			[
+				"Auth",
+				"AuthController"
+			],
+			[
+				"com",
+				"compact〔function〕"
+			],
+			[
+				"method",
+				"method_exists〔function〕"
+			],
+			[
+				"array_ke",
+				"array_key_exists〔function〕"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"st",
+				"static"
+			],
+			[
+				"array_k",
+				"array_keys〔function〕"
+			],
+			[
+				"parse",
+				"parse_url"
+			],
+			[
+				"bs3",
+				"bs3-cdn\tbs3-cdn"
+			],
+			[
+				"form",
+				"form:grid\tgrid"
 			],
 			[
 				"var",
 				"var_dump"
 			],
 			[
-				"mt",
-				"mt_rand"
+				"php",
+				"php"
 			],
 			[
-				"a",
-				"array"
+				"htmls",
+				"htmlentities"
 			],
 			[
-				"exa",
-				"extract"
+				"padd",
+				"paddingBottom〔variable〕"
 			],
 			[
-				"fun",
-				"function"
+				"shorten",
+				"shorten_text"
 			],
 			[
-				"navbar",
-				"navbar-brand"
+				"font",
+				"font-weight"
 			],
 			[
-				"lin",
-				"link_to"
+				"color",
+				"color: 〔property〕"
 			],
 			[
-				"core",
-				"coreviews"
+				"val",
+				"validate_email〔function〕"
 			],
 			[
-				"stat",
-				"staticfiles"
+				"get",
+				"getcwd"
+			],
+			[
+				"index",
+				"z-index: 〔property〕"
+			],
+			[
+				"url",
+				"urlencode"
+			],
+			[
+				"set",
+				"set_dots_right〔function〕"
+			],
+			[
+				"se",
+				"setThisPage〔function〕"
+			],
+			[
+				"total",
+				"$total_pages〔variable〕"
+			],
+			[
+				"base",
+				"base_url"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"json",
+				"json_decode〔function〕"
+			],
+			[
+				"for",
+				"foreach\tforeach …"
+			],
+			[
+				"handle",
+				"handle_error2〔function〕"
+			],
+			[
+				"sent",
+				"send_from_newsletter〔function〕"
+			],
+			[
+				"stripe",
+				"stripe_token"
+			],
+			[
+				"comm",
+				"comment"
+			],
+			[
+				"Bla",
+				"Blade::foreach\tBlade @foreach"
+			],
+			[
+				"Upda",
+				"UpdateCommentRequest〔namespace〕"
+			],
+			[
+				"has",
+				"hasMany〔function〕"
+			],
+			[
+				"bs3-l",
+				"bs3-link-button:success\tbs3-link-button-success"
+			],
+			[
+				"bs3-li",
+				"bs3-link-button:danger\tbs3-link-button-danger"
+			],
+			[
+				"user",
+				"user_id"
+			],
+			[
+				"post_by",
+				"post_by_user"
+			],
+			[
+				"in",
+				"input\tTag"
+			],
+			[
+				"butt",
+				"bs3-button:primary\tbs3-button-primary"
+			],
+			[
+				"bs3-fo",
+				"bs3-form:inline\tbs3-form-inline"
 			]
 		]
 	},
 	"buffers":
 	[
+		{
+			"file": "app/Providers/AuthServiceProvider.php",
+			"settings":
+			{
+				"buffer_size": 708,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
 	"command_palette":
 	{
-		"height": 392.0,
+		"height": 354.0,
+		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"",
+				"ANF: New File"
+			],
+			[
+				"new",
+				"ANF: New File"
+			],
+			[
+				"php",
+				"PHPUnit: Run"
+			],
+			[
+				"Package Control: insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: lis",
+				"Package Control: List Packages"
+			],
+			[
+				"del",
+				"ANF: Delete Current File"
+			],
+			[
+				"ne",
+				"ANF: New File"
+			],
+			[
+				"art",
+				"Laravel Artisan 5: Make:Test"
+			],
 			[
 				"Package Control: ",
 				"Package Control: Install Package"
 			],
 			[
-				"Snippet: try",
-				"Snippet: Wrap in try { … } catch (…) { … }"
+				"re",
+				"ANF: Rename File"
 			],
 			[
-				"doc",
-				"Snippet: HTML - Conditional comment"
+				"renam",
+				"ANF: Rename File"
 			],
 			[
-				"Snippet: doc",
-				"Snippet: Start Docblock"
+				"Snippet:",
+				"Snippet: Comment"
 			],
 			[
 				"Snippet: ",
-				"Snippet: <?php … ?>"
+				"Snippet: PHP Method"
+			],
+			[
+				" file",
+				"ANF: New File"
+			],
+			[
+				"add",
+				"Project: Add Folder"
+			],
+			[
+				"Snippet: fun",
+				"Snippet: Function"
+			],
+			[
+				"tabs",
+				"View: Toggle Tabs"
+			],
+			[
+				"tab",
+				"View: Toggle Tabs"
+			],
+			[
+				"rename",
+				"ANF: Rename File"
+			],
+			[
+				"dele",
+				"ANF: Delete Current File"
+			],
+			[
+				"delete",
+				"ANF: Delete Current File"
+			],
+			[
+				"list pa",
+				"Package Control: List Packages"
 			],
 			[
 				"packa",
 				"Package Control: Install Package"
-			],
-			[
-				"package",
-				"Package Control: Install Package"
-			],
-			[
-				"",
-				"Package Control: Install Package"
 			]
 		],
-		"width": 640.0
+		"width": 898.0
 	},
 	"console":
 	{
-		"height": 160.0
+		"height": 174.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
 	},
 	"distraction_free":
 	{
@@ -486,147 +515,153 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
+	"expanded_folders":
+	[
+		"/Users/victor/MEGA/www/laravel/laravel1",
+		"/Users/victor/MEGA/www/laravel/laravel1/app",
+		"/Users/victor/MEGA/www/laravel/laravel1/app/Http",
+		"/Users/victor/MEGA/www/laravel/laravel1/app/Providers"
+	],
 	"file_history":
 	[
-		"/D/Dropbox/www/laravel/laravel1/resources/views/app.blade.php",
-		"/D/Dropbox/frontend/jquery/jquery-test.html",
-		"/D/Dropbox/www/laravel/laravel1/public/css/animate.css",
-		"/D/Dropbox/www/laravel/laravel1/resources/views/albums/show.blade.php",
-		"/D/Dropbox/www/laravel/laravel1/app/Http/Controllers/PhotoController.php",
-		"/D/Dropbox/www/laravel/laravel1/app/Http/Requests/DeletePhotoRequest.php",
-		"/D/Dropbox/www/laravel/laravel1/app/Http/Requests/DeleteAlbumRequest.php",
-		"/D/Dropbox/www/laravel/laravel1/app/Http/Controllers/AlbumController.php",
-		"/D/Dropbox/www/laravel/laravel1/app/Photo.php",
-		"/D/Dropbox/www/laravel/laravel1/app/Http/Middleware/ExistPhotoMiddleware.php",
-		"/D/Dropbox/www/laravel/laravel1/app/Http/Middleware/ExistAlbumMiddleware.php",
-		"/D/Dropbox/www/laravel/laravel1/app/Http/Kernel.php",
-		"/D/Dropbox/www/laravel/laravel1/app/Http/Requests/EditPhotoRequest.php",
-		"/D/Dropbox/www/laravel/laravel1/app/Http/Requests/EditAlbumRequest.php",
-		"/D/Dropbox/www/laravel/laravel1/app/Http/Requests/CreatePhotoRequest.php",
-		"/D/Dropbox/www/laravel/laravel1/.env",
-		"/D/Dropbox/www/laravel/laravel1/app/Http/Requests/ShowPhotosRequest.php",
-		"/D/Dropbox/www/laravel/laravel1/resources/views/albums/edit-album.blade.php",
-		"/D/Dropbox/www/laravel/laravel1/app/Http/Requests/CreateAlbumRequest.php",
-		"/D/Dropbox/www/laravel/laravel1/app/Http/Controllers/UserController.php",
-		"/D/Dropbox/www/laravel/laravel1/app/Http/Controllers/WelcomeController.php",
-		"/D/Dropbox/www/laravel/laravel1/resources/views/albums/create-album.blade.php",
-		"/D/Dropbox/www/laravel/laravel1/resources/views/photos/show.blade.php",
-		"/D/Dropbox/www/laravel/laravel1/app/Http/routes.php",
-		"/D/Dropbox/www/laravel/laravel1/app/Http/Controllers/Auth/AuthController.php",
-		"/D/Dropbox/www/laravel/laravel1/app/User.php",
-		"/D/Dropbox/www/laravel/laravel1/vendor/laravel/framework/src/Illuminate/Foundation/Auth/AuthenticatesAndRegistersUsers.php",
-		"/D/Dropbox/www/laravel/laravel1/vendor/laravel/framework/src/Illuminate/Foundation/Auth/AuthenticatesUsers.php",
-		"/D/Dropbox/diverse/setup/setup_lamp",
-		"/C/Users/victor92/Downloads/phpfox_.sql",
-		"/D/Dropbox/diverse/setup/laravel",
-		"/C/Windows/System32/drivers/etc/hosts",
-		"/C/xampp/apache/conf/extra/httpd-vhosts.conf",
-		"/D/Dropbox/www/laravel/laravel1/config/app.php",
-		"/D/Dropbox/www/laravel/laravel1/app/Album.php",
-		"/D/Dropbox/www/laravel/laravel1/app/Http/Middleware/Authenticate.php",
-		"/D/Dropbox/www/laravel/laravel1/app/Http/Requests/EditProfileRequest.php",
-		"/D/Dropbox/www/laravel/laravel1/app/Http/Requests/PasswordRecoveryRequest.php",
-		"/D/Dropbox/www/laravel/laravel1/app/Http/Requests/Request.php",
-		"/D/Dropbox/www/laravel/laravel1/vendor/laravel/framework/src/Illuminate/Foundation/Http/FormRequest.php",
-		"/D/Dropbox/www/laravel/laravel1/vendor/laravel/framework/src/Illuminate/Contracts/Validation/ValidatesWhenResolved.php",
-		"/D/Dropbox/www/laravel/laravel1/app/Exceptions/Handler.php",
-		"/D/Dropbox/www/laravel/laravel1/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php",
-		"/D/Dropbox/www/laravel/laravel1/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/VerifyCsrfToken.php",
-		"/D/Dropbox/www/laravel/laravel1/app/Http/Middleware/VerifyCsrfToken.php",
-		"/D/Dropbox/www/laravel/laravel1/vendor/laravel/framework/src/Illuminate/Contracts/Auth/Guard.php",
-		"/D/Dropbox/www/laravel/laravel1/vendor/laravel/framework/src/Illuminate/Database/Seeder.php",
-		"/D/Dropbox/www/laravel/laravel1/database/seeds/DatabaseSeeder.php",
-		"/D/Dropbox/www/laravel/laravel1/database/seeds/AlbumTableSeeder.php",
-		"/D/Dropbox/www/laravel/laravel1/database/seeds/UserTableSeeder.php",
-		"/D/Dropbox/www/laravel/laravel1/vendor/laravel/framework/src/Illuminate/Foundation/Auth/Access/AuthorizesRequests.php",
-		"/D/Dropbox/www/laravel/laravel1/resources/views/welcome.blade.php",
-		"/D/Dropbox/www/laravel/laravel1/app/Http/Controllers/HomeController.php",
-		"/D/Dropbox/www/laravel/laravel1/app/Http/Controllers/Auth/PasswordController.php",
-		"/D/Dropbox/www/laravel/laravel1/app/Http/Controllers/Controller.php",
-		"/C/Users/victor92/OneDrive/Laravel/scripts/ImagesManager-master/database/migrations/2014_10_12_000000_create_users_table.php",
-		"/D/Dropbox/www/laravel/laravel1/database/migrations/2014_10_12_000000_create_users_table.php",
-		"/D/Dropbox/diverse/setup/git",
-		"/D/Dropbox/www/laravel/laravel1/laravel1.sublime-project",
-		"/D/Dropbox/diverse/setup/setup_dev_python_django",
-		"/D/Dropbox/www/codeigniter/codeigniter-kewl-cms/kewlcms/index.php",
-		"/D/Dropbox/www/codeigniter/codeigniter-PayPalCheckout/thegamingplace/index.php",
-		"/D/Dropbox/www/codeigniter/codeigniter-PayPalCheckout/thegamingplace/application/config/config.php",
-		"/D/Dropbox/www/codeigniter/codeigniter-kewl-cms/kewlcms/application/config/config.php",
-		"/D/Dropbox/diverse/setup/setup_dev_ruby_and Rails",
-		"/D/Dropbox/www/codeigniter/ci2/application/config/database.php",
-		"/D/Dropbox/www/codeigniter/ci1/application/config/database.php",
-		"/D/Dropbox/www/codeigniter/ci21/application/config/database.php",
-		"/C/Users/victor92/OneDrive/codeigniter/codeigniter-PayPalCheckout/thegamingplace/application/config/config.php",
-		"/C/Users/victor92/OneDrive/codeigniter/scripts/codeigniter-PayPalCheckout/thegamingplace/application/config/config.php",
-		"/D/Dropbox/www/a-2015/test.php",
-		"/D/Dropbox/www/codeigniter/ci3-mongo/application/controllers/Session.php",
-		"/D/Dropbox/www/codeigniter/ci3-mongo/application/core/MY_Controller.php",
-		"/D/Dropbox/www/codeigniter/ci3-mongo/application/core/MY_Input.php",
-		"/D/Dropbox/www/codeigniter/ci3-mongo/application/core/MY_Model.php",
-		"/D/Dropbox/www/codeigniter/ci3-mongo/application/models/Session_Model.php",
-		"/D/Dropbox/www/codeigniter/ci3-mongo/application/config/autoload.php",
-		"/D/Dropbox/www/codeigniter/ci3-mongo/application/config/config.php",
-		"/D/Dropbox/www/codeigniter/ci3-mongo/.htaccess",
-		"/D/Dropbox/www/codeigniter/ci-hmvc/application/modules/auths/controllers/auths.php",
-		"/D/Dropbox/www/codeigniter/ci_intro/application/controllers/api.php",
-		"/D/Dropbox/www/codeigniter/ci-hmvc/application/modules/auths/views/register.php",
-		"/D/Dropbox/www/codeigniter/ci-hmvc/application/core/MY_Model.php",
-		"/D/Dropbox/www/codeigniter/ci-hmvc/application/modules/auths/views/auths.php",
-		"/D/Dropbox/www/codeigniter/ci_intro/application/views/home/inc/header_view.php",
-		"/D/Dropbox/www/codeigniter/ci-hmvc/assets/js/main.js",
-		"/D/Dropbox/www/codeigniter/ci-hmvc/application/config/config.php",
-		"/D/Dropbox/www/codeigniter/ci21/application/config/config.php",
-		"/D/Dropbox/www/codeigniter/ci21/application/models/user_m.php",
-		"/D/Dropbox/www/codeigniter/ci21/application/controllers/admin/user.php",
-		"/D/Dropbox/www/codeigniter/ci21/application/core/my_model.php",
-		"/C/Users/victor92/Downloads/ci_sessions.sql",
-		"/D/Dropbox/www/codeigniter/ci21/application/views/admin/user/edit.php",
-		"/D/Dropbox/www/codeigniter/ci21/application/controllers/test.php",
-		"/D/Dropbox/www/codeigniter/ci-hmvc/application/modules/auths/models/user_model.php",
-		"/D/Dropbox/www/codeigniter/ci-hmvc/application/config/form_validation.php",
-		"/D/Dropbox/www/codeigniter/ci-hmvc/application/modules/auths/views/change_password.php",
-		"/D/Dropbox/www/codeigniter/ci-hmvc/application/helpers/data_helper.php",
-		"/D/Dropbox/www/codeigniter/ci-hmvc/application/modules/auths/views/user.php",
-		"/D/Dropbox/www/codeigniter/ci-hmvc/application/modules/auths/views/nav.php",
-		"/D/Dropbox/www/codeigniter/ci-hmvc/application/modules/auths/views/index.php",
-		"/D/Dropbox/www/codeigniter/ci-hmvc/application/modules/auths/views/forgot_password.php",
-		"/D/Dropbox/www/codeigniter/ci-hmvc/application/core/MY_Controller.php",
-		"/D/Dropbox/www/codeigniter/ci1/application/controllers/user.php",
-		"/D/Dropbox/www/codeigniter/ci2/application/controllers/login.php",
-		"/D/Dropbox/www/codeigniter/ci-hmvc/application/modules/auths/views/test.php",
-		"/D/Dropbox/www/codeigniter/ci-hmvc/application/config/routes.php",
-		"/C/Users/victor92/Downloads/deluxe-popup-window.js",
-		"/C/Users/victor92/Downloads/blapy-2015-09-02/demos/demo3-posted-input/testForm.php",
-		"/C/Users/victor92/Downloads/nubuilderprodemo/nubuilderprodemo.sql",
-		"/C/Users/victor92/Downloads/table-pagination-2015-10-27/example.html",
-		"/C/Users/victor92/Downloads/table-pagination-2015-10-27/tablePagination.class.js",
-		"/D/Dropbox/www/codeigniter/ci-hmvc/application/libraries/my_form_validation.php",
-		"/D/Dropbox/www/codeigniter/ci-hmvc/application/config/autoload.php",
-		"/D/Dropbox/www/codeigniter/rest-api/application/libraries/my_form_validation.php",
-		"/D/Dropbox/www/codeigniter/rest-api/application/controllers/api.php",
-		"/D/Dropbox/www/codeigniter/rest-api/application/core/MY_Model.php",
-		"/D/Dropbox/www/codeigniter/ci1/application/models/usermodel.php",
-		"/D/Dropbox/www/codeigniter/ci1/application/controllers/auth.php",
-		"/D/Dropbox/www/codeigniter/ci1/application/models/membership.php",
-		"/D/Dropbox/www/codeigniter/ci/application/controllers/users.php",
-		"/D/Dropbox/www/codeigniter/ci/application/models/user_model.php",
-		"/D/Dropbox/www/codeigniter/ci1/application/core/my_model.php",
-		"/D/Dropbox/www/codeigniter/ci-hmvc/application/modules/auths/views/signup.php",
-		"/D/Dropbox/www/codeigniter/ci-hmvc/assets/css/main.css",
-		"/D/Dropbox/www/codeigniter/ci-hmvc/application/modules/home/controller/homes.php",
-		"/D/Dropbox/www/codeigniter/ci-hmvc/assets/css/style.css",
-		"/D/Dropbox/www/codeigniter/ci-hmvc/application/core/my_controller.php"
+		"/Users/victor/MEGA/www/laravel/laravel4/tests/EmailTest.php",
+		"/Users/victor/MEGA/www/laravel/laravel4/tests/ExampleTest.php",
+		"/Users/victor/MEGA/www/laravel/laravel4/app/Http/routes.php",
+		"/Users/victor/MEGA/www/laravel/laravel4/tests/MailTraking.php",
+		"/Users/victor/MEGA/www/laravel/laravel4/.env",
+		"/Users/victor/MEGA/www/laravel/laravel4/composer.json",
+		"/Users/victor/MEGA/www/laravel/laravel4/storage/logs/laravel.log",
+		"/Users/victor/MEGA/www/laravel/laravel4/resources/views/emails/test.blade.php",
+		"/Users/victor/MEGA/www/laravel/laravel4/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Events/EventListener.php",
+		"/Users/victor/MEGA/www/laracast/expressions/src/Expression.php",
+		"/Users/victor/MEGA/www/laracast/expressions/composer.json",
+		"/Users/victor/MEGA/www/laravel/vic/database/seeds/DatabaseSeeder.php",
+		"/Users/victor/MEGA/www/laravel/vic/database/migrations/2017_12_04_041103_links.php",
+		"/Users/victor/MEGA/www/laravel/vic/app/Http/Controllers/Frontend/PagesController.php",
+		"/Users/victor/MEGA/www/laravel/vic/app/Http/Controllers/Admin/StatController.php",
+		"/Users/victor/MEGA/www/laravel/vic/tests/Browser/LoginTest.php",
+		"/Users/victor/MEGA/www/laravel/vic/tests/Browser/LinkTest.php",
+		"/Users/victor/MEGA/www/laravel/vic/.env",
+		"/Users/victor/MEGA/www/laravel/vic/resources/views/pages/links.blade.php",
+		"/Users/victor/MEGA/www/laravel/vic/tests/Browser/DatabaseTest.php",
+		"/Users/victor/MEGA/www/laravel/vic/.env.dusk.local",
+		"/Users/victor/MEGA/www/laravel/vic/tests/Feature/DbTest.php",
+		"/Users/victor/MEGA/www/laravel/vic/tests/Unit/UserTest.php",
+		"/Users/victor/MEGA/www/laravel/vic/phpunit.xml",
+		"/Users/victor/MEGA/www/laravel/vic/database/factories/UserFactory.php",
+		"/Users/victor/MEGA/www/laravel/vic/config/database.php",
+		"/Users/victor/MEGA/www/laravel/vic/routes/web.php",
+		"/Users/victor/MEGA/www/laravel/vic/app/Category.php",
+		"/Users/victor/MEGA/www/laravel/vic/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Factory.php",
+		"/Users/victor/MEGA/www/laravel/vic/vendor/laravel/framework/src/Illuminate/Database/Console/Factories/stubs/factory.stub",
+		"/Users/victor/MEGA/www/laravel/vic/tests/Feature/DatabaseTest.php",
+		"/Users/victor/MEGA/www/vic1/links.html",
+		"/Users/victor/Library/Application Support/Sublime Text 3/Packages/User/snippets/test.sublime-snippet",
+		"/Users/victor/MEGA/www/laravel/vic/app/Admin.php",
+		"/Users/victor/MEGA/www/laravel/vic/tests/Unit/PagesTest.php",
+		"/Users/victor/MEGA/www/laravel/vic/tests/Feature/ValidationTest.php",
+		"/Users/victor/MEGA/www/laravel/vic/app/Jobs/Tracker.php",
+		"/Users/victor/MEGA/www/laravel/vic/tests/Feature/ExampleTest.php",
+		"/Users/victor/MEGA/www/laravel/vic/app/Http/Controllers/Admin/LinkController.php",
+		"/Users/victor/MEGA/www/laravel/vic/webpack.mix.js",
+		"/Users/victor/MEGA/www/laravel/vic/resources/views/layouts/app.blade.php",
+		"/Users/victor/MEGA/www/laravel/vic/tests/Feature/LinkTest.php",
+		"/Users/victor/MEGA/www/laravel/vic/remb4372_vic.sql",
+		"/Users/victor/MEGA/www/laravel/vic/database/remb4372_vic.sql",
+		"/Users/victor/MEGA/www/laravel/vic/tests/Browser/ExampleTest.php",
+		"/Users/victor/MEGA/www/laravel/vic/tests/DuskTestCase.php",
+		"/Users/victor/MEGA/www/laravel/vic/tests/Unit/ExampleTest.php",
+		"/Users/victor/MEGA/www/laravel/vic/vendor/phpunit/phpunit/tests/Framework/SuiteTest.php",
+		"/Users/victor/MEGA/www/laravel/vic/readme.md",
+		"/Users/victor/MEGA/www/laravel/vic/composer.json",
+		"/Users/victor/MEGA/www/laravel/vic/vendor/laravel/framework/src/Illuminate/Foundation/Testing/TestCase.php",
+		"/Users/victor/MEGA/www/laravel/vic/resources/views/stat/index.blade.php",
+		"/Users/victor/MEGA/www/laravel/vic/vendor/phpunit/phpunit/src/Framework/TestCase.php",
+		"/Users/victor/MEGA/www/laravel/vic/tests/TestCase.php",
+		"/Users/victor/MEGA/www/laravel/vic/app/Http/Controllers/ScaffoldInterface/AppController.php",
+		"/Users/victor/MEGA/www/laravel/vic/resources/views/scaffold-interface/dashboard/dashboard.blade.php",
+		"/Users/victor/MEGA/www/laravel/vic/resources/views/pages/resources.blade.php",
+		"/Users/victor/MEGA/www/laravel/vic/resources/views/partials/footer.blade.php",
+		"/Users/victor/MEGA/www/laravel/vic/resources/views/pages/demos.blade.php",
+		"/Users/victor/MEGA/www/vic1/demo.html",
+		"/Users/victor/MEGA/www/laravel/vic/app/Resources/Paginate.php",
+		"/Users/victor/MEGA/www/laravel/vic/resources/views/link/index.blade.php",
+		"/Users/victor/MEGA/www/laravel/vic/app/Http/Controllers/HomeController.php",
+		"/Users/victor/MEGA/www/laravel/vic/resources/views/partials/vicnav.blade.php",
+		"/Users/victor/MEGA/www/laravel/vic/vendor/laravel/framework/src/Illuminate/Support/Facades/Auth.php",
+		"/Users/victor/MEGA/www/laravel/vic/app/Stat.php",
+		"/Users/victor/MEGA/www/laravel/vic/app/Jobs/Traker.php",
+		"/Users/victor/MEGA/www/laravel/vic/resources/views/pages/index.blade.php",
+		"/Users/victor/MEGA/www/laravel/vic/app/Http/Middleware/TrustProxies.php",
+		"/Users/victor/MEGA/www/laravel/vic/vendor/fideloper/proxy/src/TrustProxies.php",
+		"/Users/victor/MEGA/www/laravel/vic/app/Http/Controllers/Admin/AuthController.php",
+		"/Users/victor/MEGA/www/laravel/vic/app/Http/Controllers/Admin/AdminController.php",
+		"/Users/victor/MEGA/www/laravel/vic/app/Http/Controllers/Admin/SiteMapController.php",
+		"/Users/victor/MEGA/www/laravel/vic/app/Http/Controllers/Admin/CategoryController.php",
+		"/Users/victor/MEGA/www/laravel/vic/vendor/composer/installed.json",
+		"/Users/victor/MEGA/www/laravel/vic/app/Http/Controllers/AdminController.php",
+		"/Users/victor/MEGA/www/laravel/vic/app/Http/Controllers/StatController.php",
+		"/Users/victor/MEGA/www/laravel/vic/app/Console/Kernel.php",
+		"/Users/victor/MEGA/www/laravel/vic/app/Mail/AdminLoggedin.php",
+		"/Users/victor/MEGA/www/laravel/vic/resources/views/emails/adminLoggedin.blade.php",
+		"/Users/victor/MEGA/www/laravel/vic/app/Events/AdminLoggedin.php",
+		"/Users/victor/MEGA/www/laravel/vic/app/Listeners/EmailAdminNotification.php",
+		"/Users/victor/MEGA/www/laravel/vic/vendor/laravel/framework/src/Illuminate/Support/Facades/Mail.php",
+		"/Users/victor/MEGA/www/laravel/vic/app/Listeners/EmailLinkCreation.php",
+		"/Users/victor/MEGA/www/laravel/vic/app/Http/Controllers/LinkController.php",
+		"/Users/victor/MEGA/www/laravel/vic/app/Events/LinkCreated.php",
+		"/Users/victor/MEGA/www/laravel/vic/app/Providers/EventServiceProvider.php",
+		"/Users/victor/MEGA/www/laravel/vic/routes/console.php",
+		"/Users/victor/MEGA/www/laravel/vic/vendor/laravel/framework/src/Illuminate/Console/Scheduling/Schedule.php",
+		"/Users/victor/MEGA/www/laravel/vic/vendor/laravel/framework/src/Illuminate/Console/Scheduling/Event.php",
+		"/Users/victor/MEGA/www/laravel/vic/test/test.txt",
+		"/Users/victor/MEGA/www/laravel/vic/storage/logs/laravel.log",
+		"/Users/victor/MEGA/www/laravel/vic/config/app.php",
+		"/Users/victor/MEGA/www/laravel/vic/public/untitled.php",
+		"/Users/victor/MEGA/www/laravel/vic/public/sitemap2.xml",
+		"/Users/victor/MEGA/www/laravel/vic/resources/views/scaffold-interface/layouts/app.blade.php",
+		"/Users/victor/MEGA/www/laravel/vic/resources/views/pages/about.blade.php",
+		"/Users/victor/MEGA/www/vic1/about.html",
+		"/Users/victor/MEGA/www/laravel/vic/links.txt",
+		"/Users/victor/MEGA/www/laravel/vic/app/Http/Requests/CreateLinkRequest.php",
+		"/Users/victor/MEGA/www/laravel/vic/app/Http/Requests/UpdateLinkRequest.php",
+		"/Users/victor/MEGA/www/laravel/vic/resources/views/vendor/pagination/default0.blade.php",
+		"/Users/victor/MEGA/www/laravel/vic/resources/views/vendor/pagination/default.blade.php",
+		"/Users/victor/MEGA/www/laravel/vic/resources/views/admin/login.blade.php",
+		"/Users/victor/MEGA/www/laravel/vic/resources/views/auth/login.blade.php",
+		"/Users/victor/MEGA/www/laravel/vic/resources/views/auth/register.blade.php",
+		"/Users/victor/MEGA/www/laravel/vic/resources/views/auth/reset.blade.php",
+		"/Users/victor/MEGA/www/laravel/vic/resources/views/auth/passwords/reset.blade.php",
+		"/Users/victor/MEGA/www/laravel/vic/resources/views/auth/passwords/email.blade.php",
+		"/Users/victor/MEGA/www/laravel/vic/resources/views/auth/password1.blade.php",
+		"/Users/victor/MEGA/www/laravel/vic/resources/views/auth/password.blade.php",
+		"/Users/victor/MEGA/www/laravel/vic/resources/views/layouts/app-admin.blade.php",
+		"/Users/victor/MEGA/www/laravel/vic/resources/assets/mobirise/css/mbr-additional.css",
+		"/Users/victor/MEGA/www/laravel/vic/public/mix-manifest.json",
+		"/Users/victor/MEGA/www/laravel/vic/vendor/laravel/framework/src/Illuminate/Foundation/Auth/SendsPasswordResetEmails.php",
+		"/Users/victor/MEGA/www/laravel/vic/vendor/laravel/framework/src/Illuminate/Auth/Middleware/Authorize.php",
+		"/Users/victor/MEGA/www/laravel/vic/vendor/laravel/framework/src/Illuminate/Auth/Middleware/Authenticate.php",
+		"/Users/victor/MEGA/www/laravel/vic/node_modules/request/lib/auth.js",
+		"/Users/victor/MEGA/www/laravel/vic/vendor/laravel/framework/src/Illuminate/Broadcasting/BroadcastManager.php",
+		"/Users/victor/MEGA/www/vic1/password.html",
+		"/Users/victor/MEGA/www/vic1/reset.html",
+		"/Users/victor/MEGA/www/vic1/register.html",
+		"/Users/victor/MEGA/www/vic1/login.html",
+		"/Users/victor/MEGA/www/laravel/vic/resources/views/pages/home.blade.php",
+		"/Users/victor/MEGA/www/laravel/vic/resources/views/pages/test.blade.php",
+		"/Users/victor/MEGA/www/laravel/vic/remb4372_vic copy.sql",
+		"/Users/victor/MEGA/www/laravel/vic/remb4372_vic copy 2.sql",
+		"/Users/victor/MEGA/www/laravel/vic/resources/views/admin/create.blade.php"
 	],
 	"find":
 	{
-		"height": 45.0
+		"height": 38.0
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 176.0,
 		"where_history":
 		[
-			""
 		]
 	},
 	"find_state":
@@ -634,102 +669,57 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"ImagesManager",
-			";\n",
-			"ImagesManager",
-			"Album",
-			"ImagesManager",
-			"\n	",
-			"	{",
-			"Photo",
-			"$this->data['user']",
-			"callback_parameters",
-			"_set_where",
-			"return_type",
-			"set_where",
-			"callback_parameters",
-			"trigger",
-			"insert",
-			")",
-			"array(",
-			"array()",
-			"_set_where",
-			"_fetch_table",
-			"trigger",
-			"_set_where",
-			"json",
-			"mailformed",
-			"content",
-			"page",
-			"content",
-			"container",
-			"password_verify",
-			"php echo ",
-			"Mobirise",
-			"View",
-			"contraller",
-			"self",
-			"error",
-			"erro",
-			" $",
-			"$config",
-			"<?",
-			"set_error_delimiters",
-			"clearfix",
-			"_require_login",
-			"data-form-email",
-			"site_header",
-			"\n});",
-			">\n",
-			"ajax-contacts",
-			"    }",
-			"packages",
-			">",
-			"getData",
-			"showResult",
-			"body",
-			"railties",
-			"rollback",
-			"migrate",
-			"content_inner",
-			"forgot_password",
-			"delete_session",
-			"wide-map",
-			"fa",
-			"fa-heart",
-			"main-content",
-			"sr",
-			"cache_dir",
-			"$cache_dir",
-			"cached_time",
-			"$this->valid",
-			" <?",
-			"request"
 		],
 		"highlight": true,
 		"in_selection": false,
 		"preserve_case": false,
-		"regex": false,
+		"regex": true,
 		"replace_history":
 		[
-			"]",
-			"[",
-			"[]",
-			"=",
-			"mobilefirst",
-			""
 		],
-		"reverse": true,
+		"reverse": false,
 		"show_context": true,
 		"use_buffer2": true,
 		"whole_word": false,
-		"wrap": true
+		"wrap": false
 	},
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "app/Providers/AuthServiceProvider.php",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 708,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 106.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -739,7 +729,7 @@
 	},
 	"input":
 	{
-		"height": 36.0
+		"height": 76.0
 	},
 	"layout":
 	{
@@ -764,27 +754,174 @@
 		]
 	},
 	"menu_visible": true,
+	"output.doc":
+	{
+		"height": 0.0
+	},
+	"output.exec":
+	{
+		"height": 148.0
+	},
 	"output.find_results":
 	{
-		"height": 172.0
+		"height": 0.0
 	},
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/User/builds/PSR2.sublime-build",
+	"project": "laravel1.sublime-project",
 	"replace":
 	{
-		"height": 80.0
+		"height": 72.0
 	},
 	"save_all_on_build": true,
 	"select_file":
 	{
 		"height": 0.0,
+		"last_filter": "",
 		"selected_items":
 		[
 			[
-				"events",
-				"a-2015/ajax_crud_2/examples/events/events.php"
+				"illuminate/auth/access",
+				"vic/vendor/laravel/framework/src/Illuminate/Auth/Access/Gate.php"
 			],
 			[
-				".css",
-				"a-2014/php-objects-patterns-practice-3-code/9. Generating Objects/listing9.11.php"
+				"routes/web",
+				"vic/routes/web.php"
+			],
+			[
+				"illuminate/console/appnamespace",
+				"vic/vendor/laravel/framework/src/Illuminate/Console/DetectsApplicationNamespace.php"
+			],
+			[
+				"database/users",
+				"vic/database/migrations/2014_10_12_000000_create_users_table.php"
+			],
+			[
+				"config/app",
+				"vic/config/app.php"
+			],
+			[
+				"app/servi",
+				"vic/app/Providers/AppServiceProvider.php"
+			],
+			[
+				"compo",
+				"vic/composer.json"
+			],
+			[
+				"aoicontr",
+				"app/Http/Controllers/ApiController.php"
+			],
+			[
+				"mail",
+				"config/mail.php"
+			],
+			[
+				"routingrouter",
+				"vendor/laravel/framework/src/Illuminate/Routing/Router.php"
+			],
+			[
+				"fractal",
+				"vendor/spatie/laravel-fractal/config/fractal.php"
+			],
+			[
+				"fact",
+				"vendor/phpunit/php-file-iterator/src/Factory.php"
+			],
+			[
+				"create_users",
+				"database/migrations/2014_10_12_000000_create_users_table.php"
+			],
+			[
+				"appser",
+				"app/Providers/AppServiceProvider.php"
+			],
+			[
+				"database",
+				"config/database.php"
+			],
+			[
+				"appserv",
+				"app/Providers/AppServiceProvider.php"
+			],
+			[
+				"authser",
+				"app/Providers/AuthServiceProvider.php"
+			],
+			[
+				"appservicepro",
+				"app/Providers/AppServiceProvider.php"
+			],
+			[
+				"routes/",
+				"routes/web.php"
+			],
+			[
+				"app/app",
+				"app/Providers/AppServiceProvider.php"
+			],
+			[
+				"connection",
+				"vendor/laravel/framework/src/Illuminate/Database/Connection.php"
+			],
+			[
+				"json",
+				"node_modules/.bin/json5"
+			],
+			[
+				"user",
+				"app/User.php"
+			],
+			[
+				"users",
+				"app/Http/Controllers/UsersController.php"
+			],
+			[
+				"purchase",
+				"app/Http/Controllers/PurchasesController.php"
+			],
+			[
+				"view/wl",
+				"resources/views/welcome.blade.php"
+			],
+			[
+				"traian",
+				"www/laravel/laravel4/app/Http/Controllers/TraianController.php"
+			],
+			[
+				"traian4/library/",
+				"www/traian4/library/Controller.php"
+			],
+			[
+				"traian4/library/cle",
+				"www/traian4/library/CleverString.php"
+			],
+			[
+				"laravel/",
+				"www/laravel/danceart/.gitattributes"
+			],
+			[
+				"laravel",
+				"setup/laravel2"
+			],
+			[
+				"",
+				"www/test/foo-bar.php"
+			],
+			[
+				"packagecontr",
+				"www/wp/wp1/wp-includes/customize/class-wp-customize-background-image-control.php"
+			],
+			[
+				"faker",
+				"vendor/fzaninotto/faker/readme.md"
+			],
+			[
+				"routeservi",
+				"dev/app/Providers/RouteServiceProvider.php"
 			]
 		],
 		"width": 0.0
@@ -792,19 +929,104 @@
 	"select_project":
 	{
 		"height": 500.0,
+		"last_filter": "laravel2",
 		"selected_items":
 		[
 			[
+				"laravel2",
+				"~/MEGA/www/laravel/laravel2/laravel2.sublime-project"
+			],
+			[
 				"",
-				"/D/Dropbox/www/laravel/laravel4/laravel4.sublime-project"
+				"~/MEGA/www/laravel/vic/vic.sublime-project"
+			],
+			[
+				"la",
+				"~/MEGA/www/laravel/lar54/lar54.sublime-project"
+			],
+			[
+				"ca",
+				"~/MEGA/www/laravel/canvas/canvas/canvas.sublime-project"
+			],
+			[
+				"router",
+				"~/MEGA/www/router/router.sublime-project"
+			],
+			[
+				"dan",
+				"~/MEGA/www/codeigniter/danceart/danceart.sublime-project"
+			],
+			[
+				"laravel",
+				"~/MEGA/www/laravel/laravel.sublime-project"
+			],
+			[
+				"larav",
+				"~/MEGA/www/laravel/laravel.sublime-project"
+			],
+			[
+				"www",
+				"~/MEGA/www/www.sublime-project"
+			],
+			[
+				"lar",
+				"~/MEGA/www/laravel/lar54/lar54.sublime-project"
+			],
+			[
+				"canc",
+				"~/MEGA/www/laravel/canvas/canvas/canvas.sublime-project"
+			],
+			[
+				"petr",
+				"~/MEGA/www/petra/petra.sublime-project"
+			],
+			[
+				"quo",
+				"~/MEGA/www/laravel/quotes/quotes.sublime-project"
+			],
+			[
+				"can",
+				"~/MEGA/www/laravel/canvas/canvas/canvas.sublime-project"
+			],
+			[
+				"route",
+				"~/MEGA/www/router/router.sublime-project"
+			],
+			[
+				"h",
+				"/Users/victor/Dropbox/whttp/whttp.sublime-project"
 			]
 		],
 		"width": 380.0
 	},
-	"show_minimap": true,
+	"select_symbol":
+	{
+		"height": 43.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"register",
+				"register"
+			],
+			[
+				"isAl",
+				"isAlias"
+			]
+		],
+		"width": 947.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 207.0,
-	"status_bar_visible": true
+	"side_bar_width": 241.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
 }

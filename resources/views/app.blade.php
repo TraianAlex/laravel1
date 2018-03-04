@@ -71,6 +71,7 @@
 	        $( ".btn-primary" ).click(function() {
   				$( this ).addClass("zoomOutUp");
 			});
+			$('.thumbnail').fadeIn('3000');
 	  	});
 	</script>
 </body><!-- remove() -->

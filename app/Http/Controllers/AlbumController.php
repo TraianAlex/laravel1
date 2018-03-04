@@ -12,6 +12,7 @@ use Auth;
 use laravel1\Http\Requests\CreateAlbumRequest;
 use laravel1\Http\Requests\EditAlbumRequest;
 use laravel1\Http\Requests\DeleteAlbumRequest;
+use Redis;
 
 class AlbumController extends Controller
 {
@@ -23,6 +24,13 @@ class AlbumController extends Controller
 
     public function getIndex()
 	{
+		// $album_cached = Redis::get('albums');
+		// if(!$album_cached){
+		// 	$albums = Auth::user()->albums;
+		// 	Redis::set('albums', json_encode($albums));
+		// }else{
+		// 	$albums = json_decode($album_cached);
+		// }
 		$albums = Auth::user()->albums;
 		return view('albums.show', ['albums' => $albums]);
 	}

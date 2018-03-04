@@ -2,7 +2,7 @@
 
 class HomeController extends Controller {
 	/**
-	 * Create a new controller instance.
+	 * Create a new controller instance. goredis
 	 *
 	 * @return void
 	 */

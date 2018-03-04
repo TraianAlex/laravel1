@@ -4602,7 +4602,7 @@ a.badge:focus {
   }
 }
 .thumbnail {
-  display: block;
+  display: none;//block;none;
   padding: 4px;
   margin-bottom: 20px;
   line-height: 1.42857143;
@@ -6230,4 +6230,11 @@ body,
 label,
 .checkbox label {
   font-weight: 300;
+}
+
+.thumbnail:hover img {
+  margin-left: 50px;
+  -moz-transform: scale(1.4);
+  -webkit-transform: scale(1.4);
+  transform: scale(1.4);
 }
