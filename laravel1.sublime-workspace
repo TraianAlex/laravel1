@@ -384,10 +384,38 @@
 	"buffers":
 	[
 		{
-			"file": "app/Providers/AuthServiceProvider.php",
+			"file": ".env",
 			"settings":
 			{
-				"buffer_size": 708,
+				"buffer_size": 316,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/Http/routes.php",
+			"settings":
+			{
+				"buffer_size": 1294,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "readme.md",
+			"settings":
+			{
+				"buffer_size": 889,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "resources/views/test/redis.blade.php",
+			"settings":
+			{
+				"buffer_size": 265,
+				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		}
@@ -520,10 +548,16 @@
 		"/Users/victor/MEGA/www/laravel/laravel1",
 		"/Users/victor/MEGA/www/laravel/laravel1/app",
 		"/Users/victor/MEGA/www/laravel/laravel1/app/Http",
-		"/Users/victor/MEGA/www/laravel/laravel1/app/Providers"
+		"/Users/victor/MEGA/www/laravel/laravel1/app/Http/Controllers",
+		"/Users/victor/MEGA/www/laravel/laravel1/resources",
+		"/Users/victor/MEGA/www/laravel/laravel1/resources/views",
+		"/Users/victor/MEGA/www/laravel/laravel1/resources/views/test",
+		"/Users/victor/MEGA/www/laravel/laravel1/tests"
 	],
 	"file_history":
 	[
+		"/Users/victor/MEGA/www/laravel/laravel1/composer.json",
+		"/Users/victor/MEGA/www/laravel/laravel1/storage/logs/laravel.log",
 		"/Users/victor/MEGA/www/laravel/laravel4/tests/EmailTest.php",
 		"/Users/victor/MEGA/www/laravel/laravel4/tests/ExampleTest.php",
 		"/Users/victor/MEGA/www/laravel/laravel4/app/Http/routes.php",
@@ -649,9 +683,7 @@
 		"/Users/victor/MEGA/www/vic1/login.html",
 		"/Users/victor/MEGA/www/laravel/vic/resources/views/pages/home.blade.php",
 		"/Users/victor/MEGA/www/laravel/vic/resources/views/pages/test.blade.php",
-		"/Users/victor/MEGA/www/laravel/vic/remb4372_vic copy.sql",
-		"/Users/victor/MEGA/www/laravel/vic/remb4372_vic copy 2.sql",
-		"/Users/victor/MEGA/www/laravel/vic/resources/views/admin/create.blade.php"
+		"/Users/victor/MEGA/www/laravel/vic/remb4372_vic copy.sql"
 	],
 	"find":
 	{
@@ -686,38 +718,137 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "app/Providers/AuthServiceProvider.php",
-					"semi_transient": true,
+					"file": ".env",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 708,
+						"buffer_size": 316,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								163,
+								163
 							]
 						],
 						"settings":
 						{
 							"git_gutter_is_enabled": true,
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/Http/routes.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1294,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								307,
+								307
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
 							"syntax": "Packages/PHP/PHP.sublime-syntax",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 106.0,
+						"translation.y": 112.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "readme.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 889,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								889,
+								889
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 162.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "resources/views/test/redis.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 265,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								264,
+								264
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Laravel Blade Highlighter/blade.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
@@ -769,6 +900,10 @@
 	"output.mdpopups":
 	{
 		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 210.0
 	},
 	"pinned_build_system": "Packages/User/builds/PSR2.sublime-build",
 	"project": "laravel1.sublime-project",
@@ -929,16 +1064,16 @@
 	"select_project":
 	{
 		"height": 500.0,
-		"last_filter": "laravel2",
+		"last_filter": "",
 		"selected_items":
 		[
 			[
-				"laravel2",
-				"~/MEGA/www/laravel/laravel2/laravel2.sublime-project"
-			],
-			[
 				"",
 				"~/MEGA/www/laravel/vic/vic.sublime-project"
+			],
+			[
+				"laravel2",
+				"~/MEGA/www/laravel/laravel2/laravel2.sublime-project"
 			],
 			[
 				"la",
