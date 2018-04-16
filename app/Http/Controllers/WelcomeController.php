@@ -20,7 +20,7 @@ class WelcomeController extends Controller {
 	 */
 	public function getIndex()
 	{
-		$photos = Album::find(1)->photos;
+		$photos = Album::find(383)->photos;
 		return view('welcome', ['photos' => $photos]);
 		//return view('welcome');
 	}
